@@ -1,0 +1,8 @@
+<div class="top-menu-bar">
+<button 
+*ngFor="let area of areas" 
+(click)=getSections(area.id)
+color="warn" 
+class="menu-btn" 
+mat-raised-button>{{area.title}}</button>
+</div>

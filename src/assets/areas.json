@@ -1,0 +1,139 @@
+[
+    {
+        "id": 0,
+        "title": "Angular",
+        "section": [
+            {
+                "sectionId": 0,
+                "name": "Binding",
+                "url": ""
+            },
+            {
+                "sectionId": 1,
+                "name": "Directives",
+                "url": ""
+            },
+            {
+                "sectionId": 2,
+                "name": "Pipes",
+                "url": ""
+            },
+            {
+                "sectionId": 3,
+                "name": "Services",
+                "url": ""
+            },
+            {
+                "sectionId": 4,
+                "name": "Forms",
+                "url": ""
+            },
+            {
+                "sectionId": 5,
+                "name": "Routing",
+                "url": ""
+            },
+            {
+                "sectionId": 6,
+                "name": "Authentication",
+                "url": ""
+            },
+            {
+                "sectionId": 7,
+                "name": "Http and Observables",
+                "url": ""
+            },
+            {
+                "sectionId": 8,
+                "name": "Http Error Handling",
+                "url": ""
+            },
+            {
+                "sectionId": 9,
+                "name": "Routing",
+                "url": ""
+            },
+            {
+                "sectionId": 10,
+                "name": "Project Setup",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": ".Net Core",
+        "section": [
+            {
+                "sectionId": 11,
+                "name": "Enums",
+                "url": ""
+            },
+            {
+                "sectionId": 12,
+                "name": "Inheritance/Polymorphism",
+                "url": ""
+            },
+            {
+                "sectionId": 13,
+                "name": "Exception Handling",
+                "url": ""
+            },
+            {
+                "sectionId": 14,
+                "name": "Collections & Generics",
+                "url": ""
+            },
+            {
+                "sectionId": 15,
+                "name": "Delegates, Events, Lambdas",
+                "url": ""
+            },
+            {
+                "sectionId": 16,
+                "name": "LINQ",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "SCSS",
+        "section": [
+            { 
+                "sectionId": 21,
+                "name": "Selector",
+                "url": ""
+            },
+            { 
+                "sectionId": 22,
+                "name": "Selector22",
+                "url": ""}
+        ]
+    },
+    {
+        "id": 3,
+        "title": "RxJS",
+        "section": []
+    },
+    {
+        "id": 4,
+        "title": "Webpack",
+        "section": []
+    },
+    {
+        "id": 5,
+        "title": "Javascript",
+        "section": []
+    },
+    {
+        "id": 6,
+        "title": "Foundation",
+        "section": []
+    },
+    {
+        "id": 7,
+        "title": "Material",
+        "section": []
+    }
+]

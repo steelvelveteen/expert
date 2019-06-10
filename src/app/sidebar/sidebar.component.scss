@@ -1,0 +1,12 @@
+.container {
+  // width: 90%;
+  height: 100%;
+  margin: 1rem;
+  border: 1px solid #555;
+  mat-drawer {
+    width: 15rem;
+  }
+  mat-sidenav, mat-sidenav-content {
+    padding: 1rem;
+  }
+}

@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'expert';
+
+  private sectionNames: string[] = [];
+  listAreaSections(section): void {
+    section.forEach(s => console.log(s.name));
+    section.forEach(s => this.sectionNames.push(s.name));
+  }
 }
