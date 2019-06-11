@@ -15,6 +15,7 @@ export class MenuComponent implements OnInit {
   private httpError: HttpErrorResponse = null;
   @Output() areaSelectedEvent = new EventEmitter();
 
+// tslint:disable-next-line: variable-name
   constructor(private _dataService: DataService) { }
 
   ngOnInit() {
@@ -26,11 +27,11 @@ export class MenuComponent implements OnInit {
       (error: HttpErrorResponse) => {
         this.httpError = error;
       }
-    )
+    );
   }
 
   getSections(id): void {
-    let sections: Section[] = [];
+    const sections: Section[] = [];
     this.areas[id].section.forEach(s => sections.push(s));
     this.areaSelectedEvent.emit(sections);
   }

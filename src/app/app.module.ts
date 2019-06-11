@@ -8,12 +8,20 @@ import { MaterialModule } from './material/material.module';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { MenuComponent } from './menu/menu.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsComponent } from './content/angular/forms/forms.component';
+import { RoutingComponent } from './content/angular/routing/routing.component';
+import { HttpComponent } from './content/angular/http/http.component';
+import { ServicesComponent } from './content/angular/services/services.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
-    MenuComponent
+    MenuComponent,
+    FormsComponent,
+    RoutingComponent,
+    HttpComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,

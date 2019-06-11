@@ -50,11 +50,6 @@
             },
             {
                 "sectionId": 9,
-                "name": "Routing",
-                "url": ""
-            },
-            {
-                "sectionId": 10,
                 "name": "Project Setup",
                 "url": ""
             }
@@ -125,12 +120,24 @@
     {
         "id": 5,
         "title": "Javascript",
-        "section": []
+        "section": [
+            { 
+                "sectionId": 51,
+                "name": "Arrays",
+                "url": ""
+            }
+        ]
     },
     {
         "id": 6,
         "title": "Foundation",
-        "section": []
+        "section": [
+            { 
+                "sectionId": 61,
+                "name": "Grid XY",
+                "url": ""
+            }
+        ]
     },
     {
         "id": 7,

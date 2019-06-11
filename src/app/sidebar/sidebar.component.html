@@ -1,14 +1,15 @@
 <div id="sidebar">
   <ul class="sidebar-nav">
-      <li >
+      <li *ngFor="let section of sections">
           <!-- <a routerLink="/dashboard/{{dashboardType[mainDashboard] | lowercase}}/subdash/{{subDash.Id}}" routerLinkActive="active">
               <span class="link-icon"><i class="{{subDash.Icon}}"></i></span> <span>{{subDash.Title}}</span>
           </a> -->
-          <a class="text-center">Link button 1</a>
+          <!-- <a>Link button 1</a>
           <a>Link button 2</a>
           <a>Link button 3</a>
           <a>Link button 4</a>
-          <a>Link button 5</a>
+          <a>Http and Observables</a> -->
+          <a>{{section.name}}</a>
       </li>
   </ul>
 </div>
