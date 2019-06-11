@@ -102,13 +102,14 @@
         "section": [
             { 
                 "sectionId": 21,
-                "name": "Selector",
+                "name": "Parent Selectors",
                 "url": ""
             },
             { 
                 "sectionId": 22,
                 "name": "Selector22",
-                "url": ""}
+                "url": ""
+            }
         ]
     },
     {

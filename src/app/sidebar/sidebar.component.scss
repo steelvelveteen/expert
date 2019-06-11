@@ -1,12 +1,25 @@
-.container {
-  // width: 90%;
+#sidebar {
+  width: 10rem;
   height: 100%;
-  margin: 1rem;
-  border: 1px solid #555;
-  mat-drawer {
-    width: 15rem;
-  }
-  mat-sidenav, mat-sidenav-content {
-    padding: 1rem;
-  }
+  padding-top: 1rem;
+  transition: all 0.2s ease-out;
+
+  ul.sidebar-nav {
+    list-style: none;
+    margin-left: 1rem;
+
+    li {
+        a {
+            padding: 0.5rem 1rem;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            &:hover, &.active {
+                color: white;
+                background-color: pink;
+            }
+        }
+    }
+}
 }
