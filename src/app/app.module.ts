@@ -12,6 +12,7 @@ import { FormsComponent } from './content/angular/forms/forms.component';
 import { RoutingComponent } from './content/angular/routing/routing.component';
 import { HttpComponent } from './content/angular/http/http.component';
 import { ServicesComponent } from './content/angular/services/services.component';
+import { ObservablesComponent } from './content/rxjs/observables/observables.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ServicesComponent } from './content/angular/services/services.component
     FormsComponent,
     RoutingComponent,
     HttpComponent,
-    ServicesComponent
+    ServicesComponent,
+    ObservablesComponent
   ],
   imports: [
     BrowserModule,
