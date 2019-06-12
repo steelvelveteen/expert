@@ -110,7 +110,18 @@
     {
         "id": 3,
         "title": "RxJS",
-        "section": []
+        "section": [
+            { 
+                "sectionId": 31,
+                "name": "Observables",
+                "url": ""
+            },
+            { 
+                "sectionId": 32,
+                "name": "Subjects",
+                "url": ""
+            }
+        ]
     },
     {
         "id": 4,
@@ -142,7 +153,18 @@
     {
         "id": 7,
         "title": "Material",
-        "section": []
+        "section": [
+            { 
+                "sectionId": 71,
+                "name": "Inital Setup",
+                "url": ""
+            },
+            { 
+                "sectionId": 72,
+                "name": "de doo doo",
+                "url": ""
+            }
+        ]
     },
     {
         "id": 8,
