@@ -81,7 +81,7 @@
             },
             {
                 "sectionId": 15,
-                "name": "Delegates, Events, Lambdas",
+                "name": "Delegates & Events",
                 "url": ""
             },
             {
@@ -142,6 +142,11 @@
     {
         "id": 7,
         "title": "Material",
+        "section": []
+    },
+    {
+        "id": 8,
+        "title": "Typescript",
         "section": []
     }
 ]

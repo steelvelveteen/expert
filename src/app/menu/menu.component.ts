@@ -3,6 +3,7 @@ import { DataService } from '../services/data.service';
 import { IArea } from '../domain/models/area.model';
 import { HttpErrorResponse } from '@angular/common/http';
 import { Section } from '../domain/models/section.model';
+import { SectionService } from '../services/section.service';
 
 @Component({
   selector: 'app-menu',
@@ -15,8 +16,7 @@ export class MenuComponent implements OnInit {
   private httpError: HttpErrorResponse = null;
   @Output() areaSelectedEvent = new EventEmitter();
 
-// tslint:disable-next-line: variable-name
-  constructor(private _dataService: DataService) { }
+  constructor(private _dataService: DataService, private _sectionService: SectionService) { }
 
   ngOnInit() {
     this._dataService.fetchData().
@@ -33,7 +33,8 @@ export class MenuComponent implements OnInit {
   getSections(id): void {
     const sections: Section[] = [];
     this.areas[id].section.forEach(s => sections.push(s));
-    this.areaSelectedEvent.emit(sections);
+    // this.areaSelectedEvent.emit(sections);
+    this._sectionService.sendSections(sections);
   }
 
 }
