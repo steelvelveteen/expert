@@ -1,6 +1,9 @@
 .menu-btn {
   margin: 1rem;
-}
-.mat-menu-item:hover:not([disabled]) {
-  background: pink;
+  &:hover {
+    background: darken(red, 20%);
+  }
+  &:active {
+    background: darken(red, 40%);
+  }
 }

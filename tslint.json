@@ -72,6 +72,10 @@
     "component-class-suffix": true,
     "directive-class-suffix": true,
     "no-trailing-whitespace": false,
-    "variable-name": false
+    "variable-name": {
+      "options" : [
+        "allow-leading-underscore"
+      ]
+    }
   }
 }

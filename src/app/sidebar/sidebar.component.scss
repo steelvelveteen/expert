@@ -14,10 +14,11 @@
             display: flex;
             align-items: center;
             text-align: center;
+            color: black;
 
             &:hover, &.active {
                 color: white;
-                background-color: pink;
+                background-color: red;
             }
         }
     }

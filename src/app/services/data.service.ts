@@ -8,10 +8,10 @@ import { Observable } from 'rxjs';
 })
 export class DataService {
 
-  private url = '../../assets/areas.json';
-  constructor(private http: HttpClient) { }
+  private _url = '../../assets/areas.json';
+  constructor(private _http: HttpClient) { }
 
   fetchData(): Observable<IArea[]> {
-    return this.http.get<IArea[]>(this.url);
+    return this._http.get<IArea[]>(this._url);
   }
 }
