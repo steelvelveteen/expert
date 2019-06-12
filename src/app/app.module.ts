@@ -13,6 +13,7 @@ import { RoutingComponent } from './content/angular/routing/routing.component';
 import { HttpComponent } from './content/angular/http/http.component';
 import { ServicesComponent } from './content/angular/services/services.component';
 import { ObservablesComponent } from './content/rxjs/observables/observables.component';
+import { SubjectsComponent } from './content/rxjs/subjects/subjects.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ObservablesComponent } from './content/rxjs/observables/observables.com
     RoutingComponent,
     HttpComponent,
     ServicesComponent,
-    ObservablesComponent
+    ObservablesComponent,
+    SubjectsComponent
   ],
   imports: [
     BrowserModule,
