@@ -33,7 +33,6 @@ export class MenuComponent implements OnInit {
   getSections(id): void {
     const sections: Section[] = [];
     this.areas[id].section.forEach(s => sections.push(s));
-    // this.areaSelectedEvent.emit(sections);
     this._sectionService.sendSections(sections);
   }
 

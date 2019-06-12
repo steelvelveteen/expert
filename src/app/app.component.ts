@@ -7,9 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  private sectionNames: string[] = [];
-  listAreaSections(section): void {
-    section.forEach(s => console.log(s.name));
-    section.forEach(s => this.sectionNames.push(s.name));
-  }
+ 
 }
