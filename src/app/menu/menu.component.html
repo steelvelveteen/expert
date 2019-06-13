@@ -1,9 +1,9 @@
 <div id="top-menu-bar">
+    <div class="areas-header">Areas</div>
     <button 
         routerLink=""
         *ngFor="let area of areas" 
         (click)=getSections(area.id)
-        
         class="menu-btn" 
         mat-raised-button>{{area.title}}
     </button>
