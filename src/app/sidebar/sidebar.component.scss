@@ -3,15 +3,17 @@
   height: 100%;
   margin-top: 3rem;
   margin-left: 1rem;
+ 
 
   ul.sidebar-nav {
     list-style: none;
     margin-left: 1.5rem;
-
+    
     li {
+     
         .section-header,
         :hover, :active {
-            color: darkslategray;
+            color: white;
             background-color: lighten(darkslategrey, 20%);
         }
         a {
@@ -21,7 +23,8 @@
             text-align: center;
             color: lighten(darkslategrey, 50%);
             box-shadow: 0.1rem 0.1rem 0.8rem black;
-
+            border-radius: 0.3rem;
+            margin-top: 0.5rem;
             &:hover, &.active {
                 color: white;
                 background-color: lighten(darkslategrey, 20%);

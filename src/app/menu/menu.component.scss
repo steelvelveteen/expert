@@ -6,21 +6,20 @@
   .menu-btn {
     background-color: lighten(darkslategrey, 50%);
     box-shadow: 0.1rem 0.1rem 0.8rem black;
+    margin: 1rem;
+    padding: 0 2rem;
     &:first-child {
       margin-left: 19rem;
     }
     &:last-child {
       margin-right: 3rem;
     }
-    margin: 1rem;
-    padding: 0 2rem;
+    
     &:hover {
       background: lighten(darkslategrey, 20%);
     }
-    &:active {
-      background: darken(darkslategrey, 40%);
-    }
   }
+
   .areas-header {
     color: lighten(darkslategrey, 20%);
     margin: 1.5rem 1rem;
