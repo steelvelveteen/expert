@@ -14,6 +14,7 @@ import { HttpComponent } from './content/angular/http/http.component';
 import { ServicesComponent } from './content/angular/services/services.component';
 import { ObservablesComponent } from './content/rxjs/observables/observables.component';
 import { SubjectsComponent } from './content/rxjs/subjects/subjects.component';
+import { EnumsComponent } from './content/netcore/enums/enums.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SubjectsComponent } from './content/rxjs/subjects/subjects.component';
     HttpComponent,
     ServicesComponent,
     ObservablesComponent,
-    SubjectsComponent
+    SubjectsComponent,
+    EnumsComponent
   ],
   imports: [
     BrowserModule,

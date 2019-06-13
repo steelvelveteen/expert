@@ -26,12 +26,12 @@
             {
                 "sectionId": 4,
                 "name": "Forms",
-                "url": ""
+                "url": "forms"
             },
             {
                 "sectionId": 5,
                 "name": "Routing",
-                "url": ""
+                "url": "routing"
             },
             {
                 "sectionId": 6,
@@ -62,7 +62,7 @@
             {
                 "sectionId": 11,
                 "name": "Enums",
-                "url": ""
+                "url": "enums"
             },
             {
                 "sectionId": 12,
