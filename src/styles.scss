@@ -33,12 +33,8 @@ $expert-theme: mat-light-theme($expert-primary, $expert-accent, $expert-warn);
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-body {
-    background-color: rgb(255, 234, 234);
-}
-
 
 // Custom global stylings 
-.router-outlet {
+.content {
     margin: 1rem;
 }

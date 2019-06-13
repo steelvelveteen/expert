@@ -1,7 +1,11 @@
 #top-menu-bar {
+  background-color: darkslategrey;
   box-shadow: 0.1rem 0.1rem 0.8rem black;
   justify-content: space-evenly;
   display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
 
   .menu-btn {
     background-color: lighten(darkslategrey, 50%);
@@ -21,6 +25,7 @@
   }
 
   .areas-header {
+    background-color: darkslategrey;
     color: lighten(darkslategrey, 20%);
     margin: 1.5rem 1rem;
     padding: 0 5rem;
