@@ -145,8 +145,13 @@
         "section": [
             { 
                 "sectionId": 61,
+                "name": "Setup",
+                "url": "setup-foundation"
+            },
+            { 
+                "sectionId": 62,
                 "name": "Grid XY",
-                "url": ""
+                "url": "gridxy"
             }
         ]
     },

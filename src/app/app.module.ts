@@ -15,6 +15,7 @@ import { ServicesComponent } from './content/angular/services/services.component
 import { ObservablesComponent } from './content/rxjs/observables/observables.component';
 import { SubjectsComponent } from './content/rxjs/subjects/subjects.component';
 import { EnumsComponent } from './content/netcore/enums/enums.component';
+import { SetupFoundationComponent } from './content/foundation/setup-foundation/setup-foundation.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { EnumsComponent } from './content/netcore/enums/enums.component';
     ServicesComponent,
     ObservablesComponent,
     SubjectsComponent,
-    EnumsComponent
+    EnumsComponent,
+    SetupFoundationComponent
   ],
   imports: [
     BrowserModule,

@@ -36,3 +36,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 body {
     background-color: rgb(255, 234, 234);
 }
+.router-outlet {
+    margin: 1rem;
+}
