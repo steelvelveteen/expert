@@ -5,10 +5,13 @@
         position: fixed;
     }
     .router-container {
-        height: 90vh;
         width: 80%;
+        position: absolute;
+        left: 22rem;
+        top: 4rem;
         background: lighten(rgba(47, 79, 79, 0.363), 65%);
-        margin: 3rem 0 0 2rem; /* Same top margin as sidebar */
+
+        margin-top: 4rem; 
         box-shadow: 0.1rem 0.1rem 0.8rem black;
     }
 }
