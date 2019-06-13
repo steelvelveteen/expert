@@ -1,7 +1,9 @@
 <div id="sidebar">
   <ul class="sidebar-nav">
-      <li *ngFor="let section of sections">
-          <a routerLink="{{section.url}}">{{section.name}}</a>
+      
+      <li>
+          <a class="section-header" routerLink="/">Sections</a>
+          <a *ngFor="let section of sections" routerLink="{{section.url}}">{{section.name}}</a>
       </li>
   </ul>
 </div>

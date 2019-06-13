@@ -1,4 +1,9 @@
+.app {
+    height: 100vh;
+    background-color: darkslategrey;
+}
 .router {
-    background: lightblue;
+    height: 80vh;
+    background: lighten(darkslategrey, 20%);
     margin-top: 3rem;
 }

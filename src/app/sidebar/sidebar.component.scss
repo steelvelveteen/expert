@@ -10,16 +10,21 @@
     margin-left: 1rem;
 
     li {
+        .section-header,
+        :hover, :active {
+            color: darkslategray;
+            background-color: lighten(darkslategrey, 20%);
+        }
         a {
             padding: 0.5rem 1rem;
             display: flex;
             align-items: center;
             text-align: center;
-            color: black;
+            color: lighten(darkslategrey, 50%);
 
             &:hover, &.active {
                 color: white;
-                background-color: blue;
+                background-color: lighten(darkslategrey, 20%);
             }
         }
     }
