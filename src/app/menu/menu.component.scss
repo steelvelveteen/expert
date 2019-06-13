@@ -1,10 +1,11 @@
 #top-menu-bar {
- 
+  box-shadow: 0.1rem 0.1rem 0.8rem black;
   justify-content: space-evenly;
   display: flex;
 
   .menu-btn {
     background-color: lighten(darkslategrey, 50%);
+    box-shadow: 0.1rem 0.1rem 0.8rem black;
     &:first-child {
       margin-left: 16rem;
     }
