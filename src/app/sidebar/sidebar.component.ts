@@ -4,6 +4,7 @@ import { DataService } from '../services/data.service';
 import { IArea } from '../domain/models/area.model';
 import { HttpErrorResponse } from '@angular/common/http';
 import { Subscription } from 'rxjs';
+import { Section } from '../domain/models/section.model';
 @Component({
   selector: 'app-sidebar',
   templateUrl: './sidebar.component.html',
@@ -11,7 +12,7 @@ import { Subscription } from 'rxjs';
 })
 export class SidebarComponent implements OnInit {
 
-  @Input() sections: any;
+  private sections: Section[];
   private areas = [];
   private httpError: HttpErrorResponse = null;
   private sectionSubscription: Subscription;
