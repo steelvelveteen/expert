@@ -30,10 +30,10 @@ export class MenuComponent implements OnInit {
     );
   }
 
-  getSections(id): void {
-    const sections: Section[] = [];
-    this.areas[id].section.forEach(s => sections.push(s));
-    this._sectionService.sendSections(sections);
+  getSectionsForArea(id): void {
+    const sectionList: Section[] = [];
+    this.areas[id].section.forEach(s => sectionList.push(s));
+    this._sectionService.sendSectionList(sectionList);
   }
 
 }

@@ -3,7 +3,7 @@
     <button 
         routerLink=""
         *ngFor="let area of areas" 
-        (click)=getSections(area.id)
+        (click)=getSectionsForArea(area.id)
         class="menu-btn" 
         mat-raised-button>{{area.title}}
     </button>

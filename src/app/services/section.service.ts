@@ -11,11 +11,11 @@ export class SectionService {
   
   constructor() { }
 
-  sendSections(sections: Section[]) {
+  sendSectionList(sections: Section[]) {
     this.sectionSubject.next(sections);
   }
 
-  getSections(): Observable<Section[]> {
+  getSectionList(): Observable<Section[]> {
     return this.sectionSubject.asObservable();
   }
 }

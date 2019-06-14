@@ -32,8 +32,8 @@ export class SidebarComponent implements OnInit {
       }
     );
 
-    // Sets the sections from clicked area
-    this.sectionSubscription = this._sectionService.getSections().
+    // Sets the section list from corresponding clicked area
+    this.sectionSubscription = this._sectionService.getSectionList().
     subscribe(
       (sections: any) => {
         this.sections = sections;
