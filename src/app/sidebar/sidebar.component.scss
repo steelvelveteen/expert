@@ -1,3 +1,8 @@
+@import '../styles/mixins.scss';
+@import '../styles/colors.scss';
+
+$side-bar-bg-color: $main-bg-color;
+
 #sidebar {
   width: 15rem;
   height: 100vh;
@@ -7,27 +12,14 @@
   ul.sidebar-nav {
     list-style: none;
     margin-left: 1.5rem;
-    
+
     li {
-        .section-header,
-        :hover, :active {
-            color: white;
-            background-color: lighten(darkslategrey, 20%);
-        }
-        a {
-            padding: 0.5rem 1rem;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            color: lighten(darkslategrey, 50%);
-            box-shadow: 0.1rem 0.1rem 0.8rem black;
-            border-radius: 0.3rem;
-            margin-top: 0.5rem;
-            &:hover, &.active {
-                color: white;
-                background-color: lighten(darkslategrey, 20%);
-            }
-        }
+      .section-header,
+      :hover,
+      :active {
+        color: white;
+        background-color: lighten($main-bg-color, 20%);
+      }
     }
-}
+  }
 }

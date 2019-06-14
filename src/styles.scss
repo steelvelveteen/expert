@@ -35,6 +35,10 @@ html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 // Custom global stylings 
+@import './app/styles/mixins';
 .content {
     padding: 5rem;
+}
+.a-links {
+    @include a-links;
 }

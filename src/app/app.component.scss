@@ -1,7 +1,10 @@
+@import './styles/colors.scss';
+
+
 .app {
     height: 100vh;
     .side {
-        background-color: darkslategrey;
+        background-color: $main-bg-color;;
         position: fixed;
     }
     .router-container {

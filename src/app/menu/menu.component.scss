@@ -1,5 +1,9 @@
+@import '../styles/colors.scss';
+
+$menu-bar-bg-color: $main-bg-color;
+
 #top-menu-bar {
-  background-color: darkslategrey;
+  background-color: $menu-bar-bg-color;
   box-shadow: 0.1rem 0.1rem 0.8rem black;
   justify-content: space-evenly;
   display: flex;
