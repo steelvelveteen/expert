@@ -2,6 +2,7 @@
 
 .app {
     height: 100vh;
+    overflow-y: hidden;
     .side-bar {
         background-color: $main-color;
         position: fixed;

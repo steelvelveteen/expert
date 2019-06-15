@@ -97,14 +97,25 @@
         "section": [
             { 
                 "sectionId": 21,
-                "name": "Parent Selectors",
-                "url": "parent-selectors"
+                "name": "Selectors",
+                "url": "selectors"
             },
             { 
                 "sectionId": 22,
-                "name": "Selector22",
+                "name": "Mixins",
+                "url": ""
+            },
+            { 
+                "sectionId": 23,
+                "name": "Functions",
+                "url": ""
+            },
+            { 
+                "sectionId": 24,
+                "name": "CSS Tricks",
                 "url": ""
             }
+            
         ]
     },
     {
@@ -120,6 +131,11 @@
                 "sectionId": 32,
                 "name": "Subjects",
                 "url": "subjects"
+            },
+            { 
+                "sectionId": 33,
+                "name": "Asynchronous Programming",
+                "url": "async"
             }
         ]
     },

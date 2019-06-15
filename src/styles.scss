@@ -49,3 +49,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .a-links {
     @include a-links;
 }
+.code {
+    @include code;
+}

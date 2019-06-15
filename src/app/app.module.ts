@@ -18,6 +18,7 @@ import { EnumsComponent } from './content/netcore/enums/enums.component';
 import { SetupFoundationComponent } from './content/foundation/setup-foundation/setup-foundation.component';
 import { ArraysComponent } from './content/javascript/arrays/arrays.component';
 import { BindingComponent } from './content/angular/binding/binding.component';
+import { AsyncComponent } from './content/rxjs/async/async.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { BindingComponent } from './content/angular/binding/binding.component';
     EnumsComponent,
     SetupFoundationComponent,
     ArraysComponent,
-    BindingComponent
+    BindingComponent,
+    AsyncComponent
   ],
   imports: [
     BrowserModule,

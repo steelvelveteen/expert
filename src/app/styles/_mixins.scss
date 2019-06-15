@@ -22,3 +22,8 @@
   }
 
 }
+
+@mixin code {
+  padding: 1rem;
+  background-color: lighten($main-color, 50%);
+}
