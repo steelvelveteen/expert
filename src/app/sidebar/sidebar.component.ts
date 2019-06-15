@@ -6,7 +6,7 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { Subscription } from 'rxjs';
 import { Section } from '../domain/models/section.model';
 @Component({
-  selector: 'app-sidebar',
+  selector: 'sidebar',
   templateUrl: './sidebar.component.html',
   styleUrls: ['./sidebar.component.scss']
 })
@@ -20,7 +20,6 @@ export class SidebarComponent implements OnInit {
   constructor(private _dataService: DataService, private _sectionService: SectionService) { }
 
   ngOnInit() {
-
     // Sets the sections from angular area by default
     this._dataService.fetchData().
     subscribe(

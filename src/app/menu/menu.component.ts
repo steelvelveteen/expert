@@ -6,7 +6,7 @@ import { Section } from '../domain/models/section.model';
 import { SectionService } from '../services/section.service';
 
 @Component({
-  selector: 'app-menu',
+  selector: 'menu-bar',
   templateUrl: './menu.component.html',
   styleUrls: ['./menu.component.scss']
 })

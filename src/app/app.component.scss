@@ -1,9 +1,8 @@
 @import './styles/colors.scss';
 
-
 .app {
     height: 100vh;
-    .side {
+    .side-bar {
         background-color: $main-bg-color;;
         position: fixed;
     }
