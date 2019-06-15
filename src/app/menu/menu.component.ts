@@ -4,6 +4,7 @@ import { IArea } from '../domain/models/area.model';
 import { HttpErrorResponse } from '@angular/common/http';
 import { Section } from '../domain/models/section.model';
 import { SectionService } from '../services/section.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'menu-bar',
@@ -16,7 +17,7 @@ export class MenuComponent implements OnInit {
   private httpError: HttpErrorResponse = null;
   @Output() areaSelectedEvent = new EventEmitter();
 
-  constructor(private _dataService: DataService, private _sectionService: SectionService) { }
+  constructor(private _dataService: DataService, private _sectionService: SectionService, private _router: Router) { }
 
   ngOnInit() {
     this._dataService.fetchData().
@@ -34,6 +35,10 @@ export class MenuComponent implements OnInit {
     const sectionList: Section[] = [];
     this.areas[id].section.forEach(s => sectionList.push(s));
     this._sectionService.sendSectionList(sectionList);
+    this.loadFirstTopic(id);
   }
-
+  
+  loadFirstTopic(id): void {
+    this._router.navigateByUrl(this.areas[id].section[0].url);
+  }
 }

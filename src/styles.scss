@@ -37,7 +37,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 // Custom global stylings 
 @import './app/styles/mixins';
 .content {
-    padding: 5rem;
+    padding: 2rem 5rem 5rem 5rem;
+    .content-header {
+        font-size: 3rem;
+    }
+    .topic-label {
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
 }
 .a-links {
     @include a-links;

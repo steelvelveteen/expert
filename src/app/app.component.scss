@@ -3,7 +3,7 @@
 .app {
     height: 100vh;
     .side-bar {
-        background-color: $main-bg-color;;
+        background-color: $main-color;
         position: fixed;
     }
     .router-container {
@@ -11,9 +11,9 @@
         position: absolute;
         left: 22rem;
         top: 4rem;
-        background: lighten(rgba(47, 79, 79, 0.363), 65%);
+        background: lighten($main-color, 70%);
 
-        margin-top: 4rem; 
+        margin-top: 3rem; 
         box-shadow: 0.1rem 0.1rem 0.8rem black;
     }
 }

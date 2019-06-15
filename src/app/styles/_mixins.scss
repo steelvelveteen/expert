@@ -1,15 +1,24 @@
+@import './colors';
+
 @mixin a-links {
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
   text-align: center;
-  color: lighten(darkslategrey, 50%);
+  color: lighten($main-color, 50%);
   box-shadow: 0.1rem 0.1rem 0.8rem black;
   border-radius: 0.3rem;
   margin-top: 0.5rem;
+
   &:hover,
-  &.active {
+  &:active {
     color: white;
-    background-color: lighten(darkslategrey, 20%);
+    background-color: lighten($main-color, 20%);
   }
+
+  &:focus {
+    color: darken($main-color, 20%);
+    background-color: lighten($main-color, 50%);
+  }
+
 }

@@ -1,9 +1,7 @@
 @import '../styles/colors.scss';
 
-$menu-bar-bg-color: $main-bg-color;
-
 #top-menu-bar {
-  background-color: $menu-bar-bg-color;
+  background-color: $main-color;
   box-shadow: 0.1rem 0.1rem 0.8rem black;
   justify-content: space-evenly;
   display: flex;
@@ -12,7 +10,7 @@ $menu-bar-bg-color: $main-bg-color;
   z-index: 999;
 
   .menu-btn {
-    background-color: lighten(darkslategrey, 50%);
+    background-color: lighten($main-color, 50%);
     box-shadow: 0.1rem 0.1rem 0.8rem black;
     margin: 1rem;
     padding: 0 2rem;
@@ -24,13 +22,18 @@ $menu-bar-bg-color: $main-bg-color;
     }
     
     &:hover {
-      background: lighten(darkslategrey, 20%);
+      background: lighten($main-color, 20%);
+    }
+    &:active,
+    &:focus {
+      color: lighten($main-color, 80%);
+      background-color: darken($main-color, 50%);
     }
   }
 
   .areas-header {
-    background-color: darkslategrey;
-    color: lighten(darkslategrey, 20%);
+    background-color: $main-color;
+    color: lighten($main-color, 20%);
     margin: 1.5rem 1rem;
     padding: 0 5rem;
   }
