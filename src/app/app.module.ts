@@ -17,6 +17,7 @@ import { SubjectsComponent } from './content/rxjs/subjects/subjects.component';
 import { EnumsComponent } from './content/netcore/enums/enums.component';
 import { SetupFoundationComponent } from './content/foundation/setup-foundation/setup-foundation.component';
 import { ArraysComponent } from './content/javascript/arrays/arrays.component';
+import { BindingComponent } from './content/angular/binding/binding.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ArraysComponent } from './content/javascript/arrays/arrays.component';
     SubjectsComponent,
     EnumsComponent,
     SetupFoundationComponent,
-    ArraysComponent
+    ArraysComponent,
+    BindingComponent
   ],
   imports: [
     BrowserModule,
