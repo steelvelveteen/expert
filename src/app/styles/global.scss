@@ -1,0 +1,21 @@
+// Custom global stylings 
+@import '../node_modules/foundation-sites/scss/foundation.scss';
+@include foundation-everything(true);
+
+@import './mixins.scss';
+.content {
+    padding: 2rem 5rem 5rem 5rem;
+    .content-header {
+        font-size: 3rem;
+    }
+    .topic-label {
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+}
+.a-links {
+    @include a-links;
+}
+.code {
+    @include code;
+}

@@ -1,19 +1,13 @@
 @import './styles/colors.scss';
 
 .app {
-    height: 100vh;
-    overflow-y: hidden;
-    .side-bar {
-        background-color: $main-color;
-        position: fixed;
-    }
+
     .router-container {
         width: 80%;
         position: absolute;
-        left: 22rem;
-        top: 4rem;
+        left: 18%;
+        top: 8%;
         background: lighten($main-color, 70%);
-
         margin-top: 3rem; 
         box-shadow: 0.1rem 0.1rem 0.8rem black;
     }

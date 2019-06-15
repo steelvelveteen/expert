@@ -1,17 +1,21 @@
 @import '../styles/mixins.scss';
 @import '../styles/colors.scss';
 
-#sidebar {
-  width: 15rem;
-  height: 100vh;
-  margin-top: 8rem;
-  margin-left: 1rem;
+#sidebar-container {
+  background-color: $main-color;
+  position: fixed;
+  height: 100%;
+  width: 48rem;
 
-  ul.sidebar-nav {
+  .sidebar-ul {
+    margin-top: 8rem;
     list-style: none;
     margin-left: 1.5rem;
+    width: 15rem;
 
     li {
+      margin-left: 2.5rem;
+
       .section-header,
       :hover,
       :active {

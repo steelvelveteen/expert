@@ -24,10 +24,8 @@
     &:hover {
       background: lighten($main-color, 20%);
     }
-    &:active,
-    &:focus {
+    &:active {
       color: lighten($main-color, 80%);
-      background-color: darken($main-color, 50%);
     }
   }
 
