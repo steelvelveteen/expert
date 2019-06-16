@@ -1,10 +1,12 @@
 <div id="top-menu-bar">
-    <div class="areas-header">Areas</div>
-    <button 
-        routerLink=""
-        *ngFor="let area of areas" 
-        (click)=getSectionsForArea(area.id)
-        class="btn" 
-        mat-raised-button>{{area.title}}
-    </button>
+  <div class="areas-header">Areas</div>
+  <button
+    routerLink=""
+    *ngFor="let area of areas"
+    (click)="getSectionsForArea(area.id)"
+    class="btn"
+    mat-raised-button
+  >
+    {{ area.title }}
+  </button>
 </div>
