@@ -39,15 +39,16 @@
 }
 
 @mixin section-content {
-  // padding: 2rem 5rem 5rem 5rem;
-  // background: lighten($main-color, 60%);
-  // width: 75%;
-  // height: 85%;
-  // overflow-y: auto;
-  // position: absolute;
-  // left: 23%;
-  // top: 10%;
-  // box-shadow: 0.1rem 0.1rem 0.8rem black;
+  background: lighten($main-color, 60%);
+  padding: 2rem 5rem 5rem 5rem;
+  box-shadow: 0.1rem 0.1rem 0.8rem black;
+
+  width: 75%;
+  height: 85%;
+  overflow-y: auto;
+  position: absolute;
+  left: 23%;
+  top: 10%;
 
   .content-header {
     font-size: 2.5rem;
