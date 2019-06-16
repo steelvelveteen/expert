@@ -9,26 +9,6 @@
   position: fixed;
   z-index: 999;
 
-  .menu-btn {
-    background-color: lighten($main-color, 50%);
-    box-shadow: 0.1rem 0.1rem 0.8rem black;
-    margin: 1rem;
-    padding: 0 2rem;
-    &:first-child {
-      margin-left: 19rem;
-    }
-    &:last-child {
-      margin-right: 3rem;
-    }
-    
-    &:hover {
-      background: lighten($main-color, 20%);
-    }
-    &:active {
-      color: lighten($main-color, 80%);
-    }
-  }
-
   .areas-header {
     background-color: $main-color;
     color: lighten($main-color, 20%);

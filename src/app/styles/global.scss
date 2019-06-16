@@ -1,31 +1,20 @@
-// Custom global stylings 
-@import '../node_modules/foundation-sites/scss/foundation.scss';
+// Custom global stylings
+@import "../node_modules/foundation-sites/scss/foundation.scss";
 @include foundation-everything(true);
 
-@import './mixins.scss';
-.section-content {
-    padding: 2rem 5rem 5rem 5rem;
-    width: 77%;
-    height: 85%;
-    overflow-y: auto;
-    position: absolute;
-    left: 18%;
-    top: 8%;
-    background: lighten($main-color, 60%);
-    margin-top: 3rem;
-    box-shadow: 0.1rem 0.1rem 0.8rem black;
+@import "./mixins.scss";
 
-    .content-header {
-        font-size: 2.5rem;
-    }
-    .topic-label {
-        font-size: 1.5rem;
-        padding-bottom: 1.5rem;
-    }
+.section-content {
+  @include section-content;
 }
 .a-links {
-    @include a-links;
+  @include a-links;
 }
+
+button.btn {
+  @include button;
+}
+
 .code {
-    @include code;
+  @include code;
 }

@@ -21,17 +21,14 @@ export class AppComponent implements OnInit{
     subscribe(
       (data: IArea[]) => {
         this.areas = data;
+      this._router.navigateByUrl(this.areas[0].section[0].url);
+
       },
       (error: HttpErrorResponse) => {
         this.httpError = error;
+        console.log(error);
       }
     );
-    try {
-      this._router.navigateByUrl(this.areas[0].section[0].url);
-
-    } catch {
-      console.log("error");
-    }
   }
  
 }
