@@ -9,11 +9,14 @@ import { SubjectsComponent } from './content/rxjs/subjects/subjects.component';
 import { HttpComponent } from './content/angular/http/http.component';
 import { BindingComponent } from './content/angular/binding/binding.component';
 import { AsyncComponent } from './content/rxjs/async/async.component';
+import { ServicesComponent } from './content/angular/services/services.component';
+import { ArraysComponent } from './content/javascript/arrays/arrays.component';
 
 const routes: Routes = [
   { path: '*', redirectTo: '/', pathMatch: 'full'},
   { path: 'binding', component: BindingComponent},
   { path: 'routing', component: RoutingComponent},
+  { path: 'services', component: ServicesComponent},
   { path: 'async', component: AsyncComponent},
   { path: 'forms', component: FormsComponent},
   { path: 'http', component: HttpComponent},
@@ -21,6 +24,7 @@ const routes: Routes = [
   { path: 'setup-foundation', component: SetupFoundationComponent},
   { path: 'observables', component: ObservablesComponent},
   { path: 'subjects', component: SubjectsComponent},
+  { path: 'arrays', component: ArraysComponent},
 ];
 
 @NgModule({

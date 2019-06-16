@@ -28,7 +28,11 @@ $expert-theme: mat-light-theme($expert-primary, $expert-accent, $expert-warn);
 
 // Angular theme
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
-html, body { height: 100%; }
+html, body { 
+    // height: 100%; 
+    // background-color: pink;
+    // display: flex;
+}
 body { margin: 0; padding: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 // Import global.scss

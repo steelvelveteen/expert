@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-async',
+  selector: 'async',
   templateUrl: './async.component.html',
   styleUrls: ['./async.component.scss']
 })

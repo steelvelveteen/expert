@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-enums',
+  selector: 'enums',
   templateUrl: './enums.component.html',
   styleUrls: ['./enums.component.scss']
 })

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-observables',
+  selector: 'observables',
   templateUrl: './observables.component.html',
   styleUrls: ['./observables.component.scss']
 })

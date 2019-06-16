@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-arrays',
+  selector: 'arrays',
   templateUrl: './arrays.component.html',
   styleUrls: ['./arrays.component.scss']
 })
