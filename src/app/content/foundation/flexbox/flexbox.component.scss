@@ -1,0 +1,17 @@
+.topic-explanation {
+    margin: 2rem 0 0.5rem 0;
+}
+.topic-label {
+    margin-top: 1rem;
+}
+.box {
+    background-color: lightgrey;
+    height: 120px;
+
+    .child {
+        color: white;
+        background-color: dodgerblue;
+        border: 1px solid #333;
+    }
+    
+}

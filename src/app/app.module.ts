@@ -19,6 +19,7 @@ import { SetupFoundationComponent } from './content/foundation/setup-foundation/
 import { ArraysComponent } from './content/javascript/arrays/arrays.component';
 import { BindingComponent } from './content/angular/binding/binding.component';
 import { AsyncComponent } from './content/rxjs/async/async.component';
+import { FlexboxComponent } from './content/foundation/flexbox/flexbox.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { AsyncComponent } from './content/rxjs/async/async.component';
     SetupFoundationComponent,
     ArraysComponent,
     BindingComponent,
-    AsyncComponent
+    AsyncComponent,
+    FlexboxComponent
   ],
   imports: [
     BrowserModule,
