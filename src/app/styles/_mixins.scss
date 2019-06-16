@@ -58,8 +58,3 @@
     padding-bottom: 1.5rem;
   }
 }
-
-@mixin code {
-  padding: 1rem;
-  background-color: lighten($main-color, 50%);
-}
