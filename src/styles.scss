@@ -29,7 +29,7 @@ $expert-theme: mat-light-theme($expert-primary, $expert-accent, $expert-warn);
 // Angular theme
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 html, body { 
-    // height: 100%; 
+    height: 100%; 
     // background-color: pink;
     // display: flex;
 }

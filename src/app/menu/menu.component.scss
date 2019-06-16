@@ -2,9 +2,8 @@
 
 #top-menu-bar {
   background-color: $main-color;
-  box-shadow: 0.1rem 0.1rem 0.8rem black;
   justify-content: space-evenly;
-  display: flex;
+  box-shadow: 0.1rem 0.3rem 1rem black;
   width: 100%;
   position: fixed;
   z-index: 999;
