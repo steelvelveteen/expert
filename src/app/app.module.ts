@@ -20,6 +20,8 @@ import { ArraysComponent } from './content/javascript/arrays/arrays.component';
 import { BindingComponent } from './content/angular/binding/binding.component';
 import { AsyncComponent } from './content/rxjs/async/async.component';
 import { FlexboxComponent } from './content/foundation/flexbox/flexbox.component';
+import { FloatComponent } from './content/foundation/float/float.component';
+import { GridsComponent } from './content/foundation/grids/grids.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { FlexboxComponent } from './content/foundation/flexbox/flexbox.component
     ArraysComponent,
     BindingComponent,
     AsyncComponent,
-    FlexboxComponent
+    FlexboxComponent,
+    FloatComponent,
+    GridsComponent
   ],
   imports: [
     BrowserModule,

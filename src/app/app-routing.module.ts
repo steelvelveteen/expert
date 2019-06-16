@@ -1,3 +1,5 @@
+import { GridsComponent } from './content/foundation/grids/grids.component';
+import { FloatComponent } from './content/foundation/float/float.component';
 import { FormsComponent } from './content/angular/forms/forms.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -24,6 +26,8 @@ const routes: Routes = [
   { path: 'enums', component: EnumsComponent},
   { path: 'setup-foundation', component: SetupFoundationComponent},
   { path: 'flexbox', component: FlexboxComponent},
+  { path: 'float', component: FloatComponent},
+  { path: 'gridxy', component: GridsComponent},
   { path: 'observables', component: ObservablesComponent},
   { path: 'subjects', component: SubjectsComponent},
   { path: 'arrays', component: ArraysComponent},
