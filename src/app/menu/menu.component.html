@@ -1,13 +1,13 @@
-<div class="grid-x" id="top-menu-bar">
-  <div class="areas-header">Areas</div>
-  <button
-    routerLink=""
-    *ngFor="let area of areas"
-    (click)="getSectionsForArea(area.id)"
-    class="btn"
-    mat-raised-button
-  >
-    {{ area.title }}
-  </button>
-
+<div class="grid-x align-middle sticky" id="top-menu-bar">
+  <div class="cell small-3 areas-header text-center">Areas</div>
+  <div class="cell small-9 align-spaced">
+      <button
+      routerLink=""
+      *ngFor="let area of areas"
+      (click)="getSectionsForArea(area.id)"
+      class="btn"
+      mat-raised-button>
+      {{ area.title }}
+    </button>
+  </div>
 </div>

@@ -168,6 +168,16 @@
                 "sectionId": 62,
                 "name": "Grid XY",
                 "url": "gridxy"
+            },
+            { 
+                "sectionId": 63,
+                "name": "Flexbox Utilities",
+                "url": " "
+            },
+            { 
+                "sectionId": 64,
+                "name": "Float classes",
+                "url": ""
             }
         ]
     },

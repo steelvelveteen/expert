@@ -2,17 +2,11 @@
 
 #top-menu-bar {
   background-color: $main-color;
-  justify-content: space-evenly;
   box-shadow: 0.1rem 0.3rem 1rem black;
-  width: 100%;
-  position: fixed;
-  z-index: 999;
 
   .areas-header {
     background-color: $main-color;
-    color: lighten($main-color, 20%);
-    margin: 1.5rem 1rem;
-    padding: 0 5rem;
+    color: lighten($main-color, 40%);
   }
 }
 
