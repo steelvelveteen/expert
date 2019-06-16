@@ -2,11 +2,6 @@
 @import "../styles/colors.scss";
 
 #sidebar-container {
-  background-color: $main-color;
-  width: 100%;
-  position: fixed;
-  height: 100%;
-
   .sidebar-ul {
     list-style: none;
     padding-left: 2.5rem;
