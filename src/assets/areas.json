@@ -50,6 +50,11 @@
             },
             {
                 "sectionId": 9,
+                "name": "Interceptors",
+                "url": ""
+            },
+            {
+                "sectionId": 10,
                 "name": "Project Setup",
                 "url": "setup-angular"
             }
@@ -207,5 +212,10 @@
                 "url": ""
             }
         ]
+    },
+    {
+        "id": 8,
+        "title": "SQL",
+        "section": []
     }
 ]
