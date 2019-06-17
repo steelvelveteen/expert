@@ -22,6 +22,7 @@ import { AsyncComponent } from './content/rxjs/async/async.component';
 import { FlexboxComponent } from './content/foundation/flexbox/flexbox.component';
 import { FloatComponent } from './content/foundation/float/float.component';
 import { GridsComponent } from './content/foundation/grids/grids.component';
+import { CollectionsComponent } from './content/netcore/collections/collections.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { GridsComponent } from './content/foundation/grids/grids.component';
     AsyncComponent,
     FlexboxComponent,
     FloatComponent,
-    GridsComponent
+    GridsComponent,
+    CollectionsComponent
   ],
   imports: [
     BrowserModule,

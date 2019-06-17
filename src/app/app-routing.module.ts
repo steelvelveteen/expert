@@ -1,3 +1,4 @@
+import { CollectionsComponent } from './content/netcore/collections/collections.component';
 import { GridsComponent } from './content/foundation/grids/grids.component';
 import { FloatComponent } from './content/foundation/float/float.component';
 import { FormsComponent } from './content/angular/forms/forms.component';
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'forms', component: FormsComponent},
   { path: 'http', component: HttpComponent},
   { path: 'enums', component: EnumsComponent},
+  { path: 'collections', component: CollectionsComponent},
   { path: 'setup-foundation', component: SetupFoundationComponent},
   { path: 'flexbox', component: FlexboxComponent},
   { path: 'float', component: FloatComponent},
