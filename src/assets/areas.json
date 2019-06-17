@@ -55,6 +55,16 @@
             },
             {
                 "sectionId": 10,
+                "name": "ngRx",
+                "url": ""
+            },
+            {
+                "sectionId": 101,
+                "name": "Animations",
+                "url": ""
+            },
+            {
+                "sectionId": 110,
                 "name": "Project Setup",
                 "url": "setup-angular"
             }
@@ -86,21 +96,31 @@
             },
             {
                 "sectionId": 15,
-                "name": "Delegates & Events",
+                "name": "Delegates",
                 "url": "delegates"
             },
             {
                 "sectionId": 16,
-                "name": "LINQ",
-                "url": "linq"
+                "name": "Events",
+                "url": ""
             },
             {
                 "sectionId": 17,
-                "name": "Attributes",
+                "name": "Lambdas",
                 "url": ""
             },
             {
                 "sectionId": 18,
+                "name": "LINQ",
+                "url": "linq"
+            },
+            {
+                "sectionId": 19,
+                "name": "Attributes",
+                "url": ""
+            },
+            {
+                "sectionId": 20,
                 "name": "dotnet cli",
                 "url": ""
             }
