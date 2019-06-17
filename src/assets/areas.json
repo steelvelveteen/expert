@@ -88,7 +88,18 @@
                 "sectionId": 16,
                 "name": "LINQ",
                 "url": "linq"
+            },
+            {
+                "sectionId": 17,
+                "name": "Attributes",
+                "url": ""
+            },
+            {
+                "sectionId": 18,
+                "name": "dotnet cli",
+                "url": ""
             }
+
         ]
     },
     {
@@ -157,7 +168,7 @@
     },
     {
         "id": 6,
-        "title": "Foundation",
+        "title": "Foundation 6",
         "section": [
             { 
                 "sectionId": 61,
