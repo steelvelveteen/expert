@@ -15,8 +15,6 @@ export class BindingComponent implements OnInit {
   }
 
   deleteTask(index): void {
-    console.log(index);
-    delete this.todoList[index];
-    this.todoList.forEach(task => console.log(task));
+    this.todoList.splice(index, 1);
   }
 }

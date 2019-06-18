@@ -3,11 +3,20 @@
     <div class="cell small-12">
       <div class="text-center content-header">Binding</div>
       <div class="topic-label">Listing rows with delete button</div>
-      <div class="grid-x">
-        <div class="cell small-12 flex-container align-justify align-middle" *ngFor="let task of todoList; let i = index">
-          <div id={{i}} class="float-left">{{task}}</div>
-          <button (click)=deleteTask(i) class="btn float-right" mat-raised-button>Delete</button>
+      <div>A little 'How to' remove items from a list.</div>
+      <div class="grid-x align-center">
+        <div class="cell small-8">
+          <div class="cell small-12 flex-container align-justify align-middle single-row"
+            *ngFor="let task of todoList; let i = index">
+            <div id={{i}} class="float-left">{{task}}</div>
+            <button (click)=deleteTask(i) class="btn float-right" mat-raised-button>Delete</button>
+          </div>
         </div>
+      </div>
+      <div>An array of strings (tasks) has been set up and it is traversed using *ngFor: 
+        <pre><code>*ngFor="let task of todoList; let i = index"</code></pre>
+        Each task is displayed and an id is attach to each element. 
+        <pre><code><span class="html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span>id=<span class="hljs-rules">{{'{i}'}}</span></span> <span class="hljs-attr">class</span>=<span class="hljs-string">"float-left"</span>&gt;</span></span></code></pre>
       </div>
     </div>
   </div>
