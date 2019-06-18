@@ -15,9 +15,11 @@
       </div>
       <div>An array of strings (tasks) has been set up and it is traversed using *ngFor: 
         <pre><code>*ngFor="let task of todoList; let i = index"</code></pre>
-        Each task is displayed and an id is attach to each element. 
+        Each task is displayed and an id is attach to each element insde the <em>for</em> loop. 
         <pre><code><span class="html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span>id=<span class="hljs-rules">{{'{i}'}}</span></span> <span class="hljs-attr">class</span>=<span class="hljs-string">"float-left"</span>&gt;</span></span></code></pre>
       </div>
+      <div>When <em>Delete</em> button is clicked, the item's id is passed to the click event and is then removed from the array.</div>
+      <pre><code>this.todoList.splice(index, 1);</code></pre>
     </div>
   </div>
 </div>
