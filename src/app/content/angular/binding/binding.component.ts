@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BindingComponent implements OnInit {
 
+  todoList: string[] = ['Shopping', 'Training', 'Bunging', 'Weekend trip'];
   constructor() { }
 
   ngOnInit() {
+    this.todoList.forEach(task => console.log(task));
   }
 
+  deleteTask(index): void {
+    console.log(index);
+    delete this.todoList[index];
+    this.todoList.forEach(task => console.log(task));
+  }
 }
