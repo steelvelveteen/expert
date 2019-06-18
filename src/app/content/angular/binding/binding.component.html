@@ -9,7 +9,7 @@
           <div class="cell small-12 flex-container align-justify align-middle single-row"
             *ngFor="let task of todoList; let i = index">
             <div id={{i}} class="float-left">{{task}}</div>
-            <button (click)=deleteTask(i) class="btn float-right" mat-raised-button>Delete</button>
+            <a (click)=deleteTask(i) class="a-links float-right" mat-raised-button>Delete</a>
           </div>
         </div>
       </div>

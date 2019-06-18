@@ -39,6 +39,7 @@
 }
 
 @mixin section-content {
+  color: $main-color;
   background: lighten($main-color, 60%);
   padding: 2rem 5rem 5rem 5rem;
   box-shadow: 0.1rem 0.1rem 0.8rem black;
@@ -51,14 +52,19 @@
   top: 12%;
 
   .content-header {
+    color: $main-color;
     font-size: 2.5rem;
   }
   .topic-label {
+    color: $main-color;
+    font-weight: bold;
     font-size: 1.5rem;
     padding: 1.5rem 0;
   }
 
   .subtopic-label {
+    color: $main-color;
+    font-weight: bold;
     font-size: 1.1rem;
     padding: 1.2rem 0;
   }
