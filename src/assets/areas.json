@@ -72,6 +72,11 @@
     },
     {
         "id": 1,
+        "title": "Ionic",
+        "section": []
+    },
+    {
+        "id": 2,
         "title": ".Net Core",
         "section": [
             {
@@ -128,7 +133,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "SCSS",
         "section": [
             { 
@@ -155,7 +160,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "RxJS",
         "section": [
             { 
@@ -176,12 +181,12 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Webpack",
         "section": []
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Javascript",
         "section": [
             { 
@@ -192,7 +197,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Foundation 6",
         "section": [
             { 
@@ -218,7 +223,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Material",
         "section": [
             { 
@@ -232,10 +237,5 @@
                 "url": ""
             }
         ]
-    },
-    {
-        "id": 8,
-        "title": "SQL",
-        "section": []
     }
 ]
