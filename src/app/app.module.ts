@@ -3,54 +3,29 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './material/material.module';
+import { ContentModule } from './content/content.module';
 
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { MenuComponent } from './menu/menu.component';
-import { FormsComponent } from './content/angular/forms/forms.component';
-import { RoutingComponent } from './content/angular/routing/routing.component';
-import { HttpComponent } from './content/angular/http/http.component';
-import { ServicesComponent } from './content/angular/services/services.component';
-import { ObservablesComponent } from './content/rxjs/observables/observables.component';
-import { SubjectsComponent } from './content/rxjs/subjects/subjects.component';
-import { EnumsComponent } from './content/netcore/enums/enums.component';
-import { SetupFoundationComponent } from './content/foundation/setup-foundation/setup-foundation.component';
-import { ArraysComponent } from './content/javascript/arrays/arrays.component';
-import { BindingComponent } from './content/angular/binding/binding.component';
-import { AsyncComponent } from './content/rxjs/async/async.component';
-import { FlexboxComponent } from './content/foundation/flexbox/flexbox.component';
-import { FloatComponent } from './content/foundation/float/float.component';
-import { GridsComponent } from './content/foundation/grids/grids.component';
-import { CollectionsComponent } from './content/netcore/collections/collections.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
     MenuComponent,
-    FormsComponent,
-    RoutingComponent,
-    HttpComponent,
-    ServicesComponent,
-    ObservablesComponent,
-    SubjectsComponent,
-    EnumsComponent,
-    SetupFoundationComponent,
-    ArraysComponent,
-    BindingComponent,
-    AsyncComponent,
-    FlexboxComponent,
-    FloatComponent,
-    GridsComponent,
-    CollectionsComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    ContentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
