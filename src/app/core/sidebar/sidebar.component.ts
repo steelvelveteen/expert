@@ -16,11 +16,14 @@ export class SidebarComponent implements OnInit {
   private areas = [];
   private httpError: HttpErrorResponse = null;
   private sectionSubscription: Subscription;
+
+  @Input() areasList: IArea[];
   
   constructor(private _dataService: DataService, private _sectionService: SectionService) { }
 
   ngOnInit() {
     // Sets the sections from angular area by default
+
     this._dataService.fetchData().
     subscribe(
       (data: IArea[]) => {
