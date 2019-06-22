@@ -1,21 +1,21 @@
 import { Injectable } from '@angular/core';
 import { Subject, Observable } from 'rxjs';
-import { Section } from '../domain/models/section.model';
+import { ISection } from '../domain/models/section.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SectionService {
 
-  private sectionSubject = new Subject<Section[]>();
+  private sectionSubject = new Subject<ISection[]>();
   
   constructor() { }
 
-  sendSectionList(sections: Section[]) {
+  sendSectionList(sections: ISection[]) {
     this.sectionSubject.next(sections);
   }
 
-  getSectionList(): Observable<Section[]> {
+  getSectionList(): Observable<ISection[]> {
     return this.sectionSubject.asObservable();
   }
 }

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SectionService } from './services/section.service';
-import { DataService } from './services/data.service';
+// import { SectionService } from './services/section.service';
+// import { DataService } from './services/data.service';
 
 @NgModule({
   declarations: [],
@@ -9,8 +9,8 @@ import { DataService } from './services/data.service';
     CommonModule
   ],
   exports: [
-    DataService,
-    SectionService
+    // DataService,
+    // SectionService
   ]
 })
 export class SharedModule { }

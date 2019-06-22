@@ -2,7 +2,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { DataService } from '../../shared/services/data.service';
 import { IArea } from '../../shared/domain/models/area.model';
 import { HttpErrorResponse } from '@angular/common/http';
-import { Section } from '../../shared/domain/models/section.model';
+import { ISection } from '../../shared/domain/models/section.model';
 import { SectionService } from '../../shared/services/section.service';
 import { Router } from '@angular/router';
 
@@ -32,7 +32,7 @@ export class MenuComponent implements OnInit {
   }
 
   getSectionsForArea(id): void {
-    const sectionList: Section[] = [];
+    const sectionList: ISection[] = [];
     this.areas[id].section.forEach(s => sectionList.push(s));
     this._sectionService.sendSectionList(sectionList);
     this.loadFirstTopic(id);
