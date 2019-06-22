@@ -14,22 +14,7 @@
         color: white;
         background-color: lighten($main-color, 20%);
       }
-
-      .animated:hover {
-        animation: pop 0.5s;
-      }
     }
   }
 }
 
-@keyframes pop {
-  0% {
-    transform: scale(1);
-  } 
-  50% {
-    transform: scale(1.05);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
