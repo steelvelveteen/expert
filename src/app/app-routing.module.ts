@@ -17,6 +17,7 @@ import { AsyncComponent } from './content/rxjs/async/async.component';
 import { ServicesComponent } from './content/angular/services/services.component';
 import { ArraysComponent } from './content/javascript/arrays/arrays.component';
 import { FlexboxComponent } from './content/foundation/flexbox/flexbox.component';
+import { AngSetupComponent } from './content/angular/ang-setup/ang-setup.component';
 
 const routes: Routes = [
   { path: '*', redirectTo: '/', pathMatch: 'full'},
@@ -35,6 +36,7 @@ const routes: Routes = [
   { path: 'observables', component: ObservablesComponent},
   { path: 'subjects', component: SubjectsComponent},
   { path: 'arrays', component: ArraysComponent},
+  { path: 'setup-angular', component: AngSetupComponent},
 ];
 
 @NgModule({

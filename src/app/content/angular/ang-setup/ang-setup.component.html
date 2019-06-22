@@ -1,0 +1,97 @@
+<div class="section-content">
+  <div class="grid-x">
+    <div class="cell small-12">
+      <div class="text-center content-header">Angular Setup</div>
+      <div class="topic-label">Important considerations</div>
+      <div>Import modules and not the components or services.</div>
+      <div>Declare components and not the modules or services.</div>
+      <div>Provide services and not components or modules.</div>
+      <div class="topic-label">Angular App Structure</div>
+      <div class="subtopic-label">Sample below, not this very project setup.</div>
+      <div class="flex-container">
+        <div class="grid-x small-4">
+          <pre>
+              <div class="subtopic-label">Sample below, not this very project setup.</div>
+            app/
+            ├── app.component.html
+            ├── app.component.scss
+            ├── app.component.spec.ts
+            ├── app.component.ts
+            ├── app.module.spec.ts
+            ├── app.module.ts
+            ├── app-routing.module.ts
+            ├── core/
+            │   ├── core-routing.module.ts
+            │   ├── core.module.spec.ts
+            │   ├── core.module.ts
+            │   ├── login/
+            │   ├── services/
+            │   └── header/
+            ├── admin/
+            │   ├── admin-routing.module.ts
+            │   ├── admin.module.spec.ts
+            │   ├── admin.module.ts
+            │   ├── admin.component.module.ts
+            │   ├── admin.component.spec.ts
+            │   ├── admin.component.html
+            │   ├── admin.component.scss
+            │   ├── manage-users/
+            │   └── services/
+            ├── form/
+            │   ├── form-routing.module.ts
+            │   ├── form.module.spec.ts
+            │   ├── form.module.ts
+            │   ├── form.component.module.ts
+            │   ├── form.component.spec.ts
+            │   ├── form.component.html
+            │   ├── form.component.scss
+            │   ├── summary/
+            │   └── services/
+            └── shared/
+                ├── shared.module.spec.ts
+                ├── shared.module.ts
+                ├── components/
+                ├── models/
+                ├── components/
+                ├── directives/
+                └── services/
+            </pre>
+        </div>
+        <div class="grid-x small-4 small-offset-2">
+          <pre>
+              <div class="subtopic-label text-center">Actual project setup.</div>
+            app/
+            ├── app.component.html
+            ├── app.component.scss
+            ├── app.component.ts
+            ├── app.module.spec.ts
+            ├── app.module.ts
+            ├── app-routing.module.ts
+            ├── core/
+            │   ├── core.module.ts
+            │   ├── menu/
+            │   ├── sidebar/
+            ├── content/
+            │   ├── content.module.ts
+            │   ├── areas-components/
+            ├── styles/
+            │   ├── _colors.scss
+            │   ├── _functions.scss
+            │   ├── _mixins.scss
+            │   ├── global.scss
+            ├── material/
+            │   └── material.module.ts
+            └── shared/
+                ├── shared.module.ts
+                ├── domain/models/
+                ├── domain/enums/
+                ├── domain/constants/
+                ├── directives/
+                ├── pipes/
+                └── services/
+            </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

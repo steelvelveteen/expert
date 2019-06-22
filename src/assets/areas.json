@@ -4,69 +4,70 @@
         "title": "Angular",
         "section": [
             {
-                "sectionId": 0,
+                "sectionId": 10,
+                "name": "Project Setup",
+                "url": "setup-angular"
+            },
+            {
+                "sectionId": 11,
                 "name": "Binding",
                 "url": "binding"
             },
             {
-                "sectionId": 1,
-                "name": "Directives",
-                "url": "directives"
-            },
-            {
-                "sectionId": 2,
-                "name": "Pipes",
-                "url": "pipes"
-            },
-            {
-                "sectionId": 3,
+                "sectionId": 12,
                 "name": "Services",
                 "url": "services"
             },
             {
-                "sectionId": 4,
-                "name": "Forms",
-                "url": "forms"
+                "sectionId": 13,
+                "name": "Pipes",
+                "url": "pipes"
+                
             },
             {
-                "sectionId": 5,
+                "sectionId": 14,
+                "name": "Directives",
+                "url": "directives"
+            },
+            {
+                "sectionId": 15,
                 "name": "Routing",
                 "url": "routing"
             },
             {
-                "sectionId": 6,
-                "name": "Authentication",
-                "url": "authentication"
+                "sectionId": 16,
+                "name": "Forms",
+                "url": "forms"
             },
             {
-                "sectionId": 7,
+                "sectionId": 17,
                 "name": "Http and Observables",
                 "url": "http"
             },
             {
-                "sectionId": 8,
+                "sectionId": 18,
                 "name": "Http Error Handling",
                 "url": "httpError"
             },
             {
-                "sectionId": 9,
-                "name": "Interceptors",
-                "url": ""
-            },
-            {
-                "sectionId": 10,
-                "name": "ngRx",
-                "url": ""
-            },
-            {
-                "sectionId": 101,
+                "sectionId": 19,
                 "name": "Animations",
                 "url": ""
             },
             {
-                "sectionId": 110,
-                "name": "Project Setup",
-                "url": "setup-angular"
+                "sectionId": 20,
+                "name": "Interceptors",
+                "url": ""
+            },
+            {
+                "sectionId": 21,
+                "name": "Authentication",
+                "url": "authentication"
+            },
+            {
+                "sectionId": 22,
+                "name": "ngRx",
+                "url": ""
             }
         ]
     },
@@ -80,52 +81,52 @@
         "title": ".Net Core",
         "section": [
             {
-                "sectionId": 11,
+                "sectionId": 10,
                 "name": "Enums",
                 "url": "enums"
             },
             {
-                "sectionId": 12,
+                "sectionId": 11,
                 "name": "Inheritance Polymorphism",
                 "url": "inheritance"
             },
             {
-                "sectionId": 13,
+                "sectionId": 12,
                 "name": "Exception Handling",
                 "url": "exception"
             },
             {
-                "sectionId": 14,
+                "sectionId": 13,
                 "name": "Collections & Generics",
                 "url": "collections"
             },
             {
-                "sectionId": 15,
+                "sectionId": 14,
                 "name": "Delegates",
                 "url": "delegates"
             },
             {
-                "sectionId": 16,
+                "sectionId": 15,
                 "name": "Events",
                 "url": ""
             },
             {
-                "sectionId": 17,
+                "sectionId": 16,
                 "name": "Lambdas",
                 "url": ""
             },
             {
-                "sectionId": 18,
+                "sectionId": 17,
                 "name": "LINQ",
                 "url": "linq"
             },
             {
-                "sectionId": 19,
+                "sectionId": 18,
                 "name": "Attributes",
                 "url": ""
             },
             {
-                "sectionId": 20,
+                "sectionId": 19,
                 "name": "dotnet cli",
                 "url": ""
             }
@@ -137,22 +138,22 @@
         "title": "SCSS",
         "section": [
             { 
-                "sectionId": 21,
+                "sectionId": 10,
                 "name": "Selectors",
                 "url": "selectors"
             },
             { 
-                "sectionId": 22,
+                "sectionId": 11,
                 "name": "Mixins",
                 "url": ""
             },
             { 
-                "sectionId": 23,
+                "sectionId": 12,
                 "name": "Functions",
                 "url": ""
             },
             { 
-                "sectionId": 24,
+                "sectionId": 13,
                 "name": "CSS Tricks",
                 "url": ""
             }
@@ -164,17 +165,17 @@
         "title": "RxJS",
         "section": [
             { 
-                "sectionId": 31,
+                "sectionId": 10,
                 "name": "Observables",
                 "url": "observables"
             },
             { 
-                "sectionId": 32,
+                "sectionId": 11,
                 "name": "Subjects",
                 "url": "subjects"
             },
             { 
-                "sectionId": 33,
+                "sectionId": 12,
                 "name": "Asynchronous Programming",
                 "url": "async"
             }
@@ -190,7 +191,7 @@
         "title": "Javascript",
         "section": [
             { 
-                "sectionId": 51,
+                "sectionId": 11,
                 "name": "Arrays",
                 "url": "arrays"
             }
@@ -201,22 +202,22 @@
         "title": "Foundation 6",
         "section": [
             { 
-                "sectionId": 61,
+                "sectionId": 11,
                 "name": "Setup",
                 "url": "setup-foundation"
             },
             { 
-                "sectionId": 62,
+                "sectionId": 12,
                 "name": "Grid XY",
                 "url": "gridxy"
             },
             { 
-                "sectionId": 63,
+                "sectionId": 13,
                 "name": "Flexbox Utilities",
                 "url": "flexbox"
             },
             { 
-                "sectionId": 64,
+                "sectionId": 14,
                 "name": "Float classes",
                 "url": "float"
             }
@@ -227,12 +228,12 @@
         "title": "Material",
         "section": [
             { 
-                "sectionId": 71,
+                "sectionId": 11,
                 "name": "Inital Setup",
                 "url": "setup-material"
             },
             { 
-                "sectionId": 72,
+                "sectionId": 12,
                 "name": "de doo doo",
                 "url": ""
             }

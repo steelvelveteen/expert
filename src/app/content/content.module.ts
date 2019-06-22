@@ -16,6 +16,7 @@ import { FlexboxComponent } from './foundation/flexbox/flexbox.component';
 import { FloatComponent } from './foundation/float/float.component';
 import { GridsComponent } from './foundation/grids/grids.component';
 import { CollectionsComponent } from './netcore/collections/collections.component';
+import { AngSetupComponent } from './angular/ang-setup/ang-setup.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { CollectionsComponent } from './netcore/collections/collections.componen
     FlexboxComponent,
     FloatComponent,
     GridsComponent,
-    CollectionsComponent
+    CollectionsComponent,
+    AngSetupComponent
   ],
   imports: [
     CommonModule
