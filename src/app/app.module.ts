@@ -7,17 +7,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './material/material.module';
 import { ContentModule } from './content/content.module';
-
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { MenuComponent } from './menu/menu.component';
-
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    SidebarComponent,
-    MenuComponent,
-    
+    AppComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +19,8 @@ import { MenuComponent } from './menu/menu.component';
     BrowserAnimationsModule,
     MaterialModule,
     HttpClientModule,
-    ContentModule
+    ContentModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,9 +1,11 @@
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+
 import { CollectionsComponent } from './content/netcore/collections/collections.component';
 import { GridsComponent } from './content/foundation/grids/grids.component';
 import { FloatComponent } from './content/foundation/float/float.component';
 import { FormsComponent } from './content/angular/forms/forms.component';
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+
 import { RoutingComponent } from './content/angular/routing/routing.component';
 import { EnumsComponent } from './content/netcore/enums/enums.component';
 import { SetupFoundationComponent } from './content/foundation/setup-foundation/setup-foundation.component';

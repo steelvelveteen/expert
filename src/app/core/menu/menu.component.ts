@@ -1,9 +1,9 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { DataService } from '../services/data.service';
-import { IArea } from '../domain/models/area.model';
+import { DataService } from '../../services/data.service';
+import { IArea } from '../../domain/models/area.model';
 import { HttpErrorResponse } from '@angular/common/http';
-import { Section } from '../domain/models/section.model';
-import { SectionService } from '../services/section.service';
+import { Section } from '../../domain/models/section.model';
+import { SectionService } from '../../services/section.service';
 import { Router } from '@angular/router';
 
 @Component({
