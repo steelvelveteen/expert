@@ -11,8 +11,7 @@
   border-radius: 0.3rem;
   margin-top: 0.5rem;
 
-  &:hover,
-  &:active {
+  &:hover {
     color: white;
     background-color: lighten($main-color, 20%);
   }

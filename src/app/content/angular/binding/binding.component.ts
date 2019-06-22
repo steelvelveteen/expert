@@ -11,7 +11,6 @@ export class BindingComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.todoList.forEach(task => console.log(task));
   }
 
   deleteTask(index): void {
