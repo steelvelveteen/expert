@@ -1,10 +1,10 @@
-import { SectionService } from '../../services/section.service';
+import { SectionService } from '../../shared/services/section.service';
 import { Component, OnInit, Input } from '@angular/core';
-import { DataService } from '../../services/data.service';
-import { IArea } from '../../domain/models/area.model';
+import { DataService } from '../../shared/services/data.service';
+import { IArea } from '../../shared/domain/models/area.model';
 import { HttpErrorResponse } from '@angular/common/http';
 import { Subscription } from 'rxjs';
-import { Section } from '../../domain/models/section.model';
+import { Section } from '../../shared/domain/models/section.model';
 @Component({
   selector: 'sidebar',
   templateUrl: './sidebar.component.html',

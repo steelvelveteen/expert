@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { DataService } from './services/data.service';
-import { IArea } from './domain/models/area.model';
+import { DataService } from './shared/services/data.service';
+import { IArea } from './shared/domain/models/area.model';
 import { HttpErrorResponse } from '@angular/common/http';
 
 @Component({
