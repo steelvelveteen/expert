@@ -31,14 +31,16 @@ export class MenuComponent implements OnInit {
     );
   }
 
-  getSectionsForArea(id): void {
+  getSectionsForArea(areaId): void {
     const sectionList: ISection[] = [];
-    this.areas[id].section.forEach(s => sectionList.push(s));
+    const areaSection = this.areas.find(a => a.id === areaId).section;
+    areaSection.forEach(s => sectionList.push(s));
+    console.log(areaSection);
     this._sectionService.sendSectionList(sectionList);
-    this.loadFirstTopic(id);
+    this.loadFirstTopic(areaSection);
   }
   
-  loadFirstTopic(id): void {
-    this._router.navigateByUrl(this.areas[id].section[0].url);
+  loadFirstTopic(areaSection): void {
+    this._router.navigateByUrl(areaSection[0].url);
   }
 }

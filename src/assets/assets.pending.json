@@ -14,12 +14,7 @@
                 "url": ""
             }
         ]
-    },
-    {
-        "id": 1,
-        "title": "Ionic",
-        "section": []
-    },
+    }
     {
         "id": 5,
         "title": "Webpack",
