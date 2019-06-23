@@ -8,6 +8,7 @@ import { Component, OnInit, Output, EventEmitter  } from '@angular/core';
 export class LoginComponent implements OnInit {
 
   @Output() logInEvent = new EventEmitter();
+  
   constructor() { }
 
   ngOnInit() {

@@ -13,7 +13,7 @@ export class AppComponent implements OnInit{
  
   private areas = [];
   private httpError: HttpErrorResponse = null;
-  private isLoggedIn: boolean = false;
+  private isLoggedIn: boolean = true;
 
   constructor(private _dataService: DataService, private _router: Router) {}
 

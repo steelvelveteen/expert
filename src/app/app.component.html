@@ -1,16 +1,12 @@
 <div class="app grid-container full">
   <div *ngIf="!isLoggedIn" class="grid-x">
     <div class="cell small-12">
-        <login (logInEvent)="logInEvent()"></login>
+      <login (logInEvent)="logInEvent()"></login>
     </div>
   </div>
   <div *ngIf="isLoggedIn" class="grid-x">
-    <div class="top-menu cell small-12">
-      <menu-bar></menu-bar>
-    </div>
     <div class="cell small-12">
-      <sidebar></sidebar>
-      <router-outlet></router-outlet>
+      <dashboard></dashboard>
     </div>
   </div>
 </div>
