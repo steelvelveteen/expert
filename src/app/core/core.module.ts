@@ -5,11 +5,13 @@ import { MaterialModule } from '../material/material.module';
 import { MenuComponent } from './menu/menu.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     MenuComponent,
-    SidebarComponent
+    SidebarComponent,
+    LoginComponent
   ],
   imports: [
     CommonModule,
@@ -18,7 +20,8 @@ import { AppRoutingModule } from '../app-routing.module';
   ],
   exports: [
     MenuComponent,
-    SidebarComponent
+    SidebarComponent,
+    LoginComponent
   ]
 })
 export class CoreModule { }
