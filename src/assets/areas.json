@@ -72,11 +72,6 @@
         ]
     },
     {
-        "id": 1,
-        "title": "Ionic",
-        "section": []
-    },
-    {
         "id": 2,
         "title": ".Net Core",
         "section": [
@@ -182,11 +177,6 @@
         ]
     },
     {
-        "id": 5,
-        "title": "Webpack",
-        "section": []
-    },
-    {
         "id": 6,
         "title": "Javascript",
         "section": [
@@ -220,22 +210,6 @@
                 "sectionId": 14,
                 "name": "Float classes",
                 "url": "float"
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "title": "Material",
-        "section": [
-            { 
-                "sectionId": 11,
-                "name": "Inital Setup",
-                "url": "setup-material"
-            },
-            { 
-                "sectionId": 12,
-                "name": "de doo doo",
-                "url": ""
             }
         ]
     }
