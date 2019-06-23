@@ -20,7 +20,6 @@ import { FlexboxComponent } from './content/foundation/flexbox/flexbox.component
 import { AngSetupComponent } from './content/angular/ang-setup/ang-setup.component';
 
 const routes: Routes = [
-  { path: '*', redirectTo: '/', pathMatch: 'full'},
   { path: 'binding', component: BindingComponent},
   { path: 'routing', component: RoutingComponent},
   { path: 'services', component: ServicesComponent},
@@ -37,6 +36,7 @@ const routes: Routes = [
   { path: 'subjects', component: SubjectsComponent},
   { path: 'arrays', component: ArraysComponent},
   { path: 'setup-angular', component: AngSetupComponent},
+  { path: '*', redirectTo: '/', pathMatch: 'full'}
 ];
 
 @NgModule({
