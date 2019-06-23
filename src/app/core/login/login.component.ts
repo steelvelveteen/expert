@@ -1,4 +1,5 @@
 import { Component, OnInit, Output, EventEmitter  } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'login',
@@ -7,14 +8,13 @@ import { Component, OnInit, Output, EventEmitter  } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
-  @Output() logInEvent = new EventEmitter();
   
-  constructor() { }
+  constructor(private _router: Router) { }
 
   ngOnInit() {
   }
 
   login(): void {
-    this.logInEvent.emit();
+    this._router.navigateByUrl('dashboard');
   }
 }

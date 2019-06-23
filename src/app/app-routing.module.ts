@@ -18,25 +18,33 @@ import { ServicesComponent } from './content/angular/services/services.component
 import { ArraysComponent } from './content/javascript/arrays/arrays.component';
 import { FlexboxComponent } from './content/foundation/flexbox/flexbox.component';
 import { AngSetupComponent } from './content/angular/ang-setup/ang-setup.component';
+import { LoginComponent } from './core/login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
-  { path: 'binding', component: BindingComponent},
-  { path: 'routing', component: RoutingComponent},
-  { path: 'services', component: ServicesComponent},
-  { path: 'async', component: AsyncComponent},
-  { path: 'forms', component: FormsComponent},
-  { path: 'http', component: HttpComponent},
-  { path: 'enums', component: EnumsComponent},
-  { path: 'collections', component: CollectionsComponent},
-  { path: 'setup-foundation', component: SetupFoundationComponent},
-  { path: 'flexbox', component: FlexboxComponent},
-  { path: 'float', component: FloatComponent},
-  { path: 'gridxy', component: GridsComponent},
-  { path: 'observables', component: ObservablesComponent},
-  { path: 'subjects', component: SubjectsComponent},
-  { path: 'arrays', component: ArraysComponent},
-  { path: 'setup-angular', component: AngSetupComponent},
-  { path: '*', redirectTo: '/', pathMatch: 'full'}
+  { path: '', component: LoginComponent },
+  { 
+    path: 'dashboard', component: DashboardComponent ,
+    children: [
+      { path: 'setup-angular', component: AngSetupComponent},
+      { path: 'binding', component: BindingComponent},
+      { path: 'routing', component: RoutingComponent},
+      { path: 'services', component: ServicesComponent},
+      { path: 'async', component: AsyncComponent},
+      { path: 'forms', component: FormsComponent},
+      { path: 'http', component: HttpComponent},
+      { path: 'enums', component: EnumsComponent},
+      { path: 'collections', component: CollectionsComponent},
+      { path: 'setup-foundation', component: SetupFoundationComponent},
+      { path: 'flexbox', component: FlexboxComponent},
+      { path: 'float', component: FloatComponent},
+      { path: 'gridxy', component: GridsComponent},
+      { path: 'observables', component: ObservablesComponent},
+      { path: 'subjects', component: SubjectsComponent},
+      { path: 'arrays', component: ArraysComponent},
+      { path: '*', redirectTo: '/', pathMatch: 'full'}
+    ]
+}
 ];
 
 @NgModule({
