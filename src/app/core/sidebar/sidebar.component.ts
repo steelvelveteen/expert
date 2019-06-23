@@ -23,7 +23,6 @@ export class SidebarComponent implements OnInit {
 
   ngOnInit() {
     // Sets the sections from angular area by default
-
     this._dataService.fetchData().
     subscribe(
       (data: IArea[]) => {
@@ -38,7 +37,7 @@ export class SidebarComponent implements OnInit {
     // Sets the section list from corresponding clicked area
     this.sectionSubscription = this._sectionService.getSectionList().
     subscribe(
-      (sections: any) => {
+      (sections: ISection[]) => {
         this.sections = sections;
       }
     );

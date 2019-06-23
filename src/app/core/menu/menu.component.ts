@@ -35,7 +35,6 @@ export class MenuComponent implements OnInit {
     const sectionList: ISection[] = [];
     const areaSection = this.areas.find(a => a.id === areaId).section;
     areaSection.forEach(s => sectionList.push(s));
-    console.log(areaSection);
     this._sectionService.sendSectionList(sectionList);
     this.loadFirstTopic(areaSection);
   }
