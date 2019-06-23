@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter  } from '@angular/core';
 
 @Component({
   selector: 'login',
@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
+  @Output() logInEvent = new EventEmitter();
   constructor() { }
 
   ngOnInit() {
   }
 
+  login(): void {
+    this.logInEvent.emit();
+  }
 }

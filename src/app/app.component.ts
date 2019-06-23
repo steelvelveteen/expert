@@ -13,6 +13,7 @@ export class AppComponent implements OnInit{
  
   private areas = [];
   private httpError: HttpErrorResponse = null;
+  private isLoggedIn: boolean = false;
 
   constructor(private _dataService: DataService, private _router: Router) {}
 
@@ -29,6 +30,11 @@ export class AppComponent implements OnInit{
         console.log(error);
       }
     );
+  }
+
+  logInEvent(): void {
+    this.isLoggedIn = true;
+    console.log(this.isLoggedIn);
   }
  
 }
