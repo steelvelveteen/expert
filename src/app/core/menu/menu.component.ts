@@ -40,6 +40,7 @@ export class MenuComponent implements OnInit {
   }
   
   loadFirstTopic(areaSection): void {
-    this._router.navigateByUrl(areaSection[0].url);
+    // this._router.navigateByUrl(areaSection[0].url);
+    this._router.navigate([`dashboard/${areaSection[0].url}`]);
   }
 }
