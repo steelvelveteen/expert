@@ -8,5 +8,10 @@
     background-color: $main-color;
     color: lighten($main-color, 40%);
   }
+
+  .logout-btn {
+    margin-left: 0 !important;
+    margin-right: 0;
+  }
 }
 
