@@ -28,6 +28,7 @@ const routes: Routes = [
   {
     path: 'dashboard', component: DashboardComponent,
     children: [
+      { path: '', component: AngSetupComponent },
       { path: 'setup-angular', component: AngSetupComponent },
       { path: 'binding', component: BindingComponent },
       { path: 'routing', component: RoutingComponent },
@@ -44,7 +45,7 @@ const routes: Routes = [
       { path: 'observables', component: ObservablesComponent },
       { path: 'subjects', component: SubjectsComponent },
       { path: 'arrays', component: ArraysComponent },
-      { path: '*', redirectTo: '', pathMatch: 'full' },
+      { path: '*', redirectTo: '/', pathMatch: 'full' },
       { path: '**', component: PagenotfoundComponent },
     ]
   }
