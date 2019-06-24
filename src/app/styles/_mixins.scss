@@ -3,9 +3,7 @@
 @mixin a-links {
   background-color: $main-color;
   padding: 0.5rem 1rem;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  display: block;
   color: lighten($main-color, 70%);
   box-shadow: 0.1rem 0.1rem 0.8rem black;
   border-radius: 0.3rem;
@@ -57,13 +55,11 @@
   background: lighten($main-color, 60%);
   padding: 2rem 5rem 5rem 5rem;
   box-shadow: 0.1rem 0.1rem 0.8rem black;
+  margin-top: 4rem;
 
-  width: 75%;
-  height: 85%;
+  width: 95%;
+  max-height: 80vh;
   overflow-y: auto;
-  position: absolute;
-  left: 23%;
-  top: 12%;
 
   .content-header {
     color: $main-color;
