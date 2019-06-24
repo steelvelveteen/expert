@@ -22,7 +22,7 @@ import { LoginComponent } from './core/login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 const routes: Routes = [
-  { path: 'login', component: LoginComponent },
+  { path: '', component: LoginComponent },
   { path: '', redirectTo: '/login', pathMatch: 'full' },
   { 
     path: 'dashboard', component: DashboardComponent ,
