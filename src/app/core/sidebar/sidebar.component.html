@@ -1,8 +1,8 @@
 <div id="sidebar-container">
   <ul class="sidebar-ul flex-container align-center">
-      <li> 
+      <li > 
           <a class="a-links section-header" >Sections</a>
-          <a class="a-links animated" *ngFor="let section of sections" routerLink="{{section.url}}" >{{section.name}}</a>
+          <a class="a-links animated" *ngFor="let section of sections" routerLink="{{section.url}}" routerLinkActive="active">{{section.name}}</a>
       </li>
   </ul>
 </div>

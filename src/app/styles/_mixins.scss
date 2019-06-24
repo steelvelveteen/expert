@@ -14,7 +14,7 @@
     background-color: lighten($main-color, 20%);
   }
 
-  &:focus {
+  &.active {
     color: darken($main-color, 20%);
     background-color: lighten($main-color, 50%);
   }
@@ -45,7 +45,7 @@
     background: lighten($main-color, 20%);
   }
   
-  &:active {
+  &.active {
     color: lighten($main-color, 80%);
   }
 }

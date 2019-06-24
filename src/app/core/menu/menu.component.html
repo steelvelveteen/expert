@@ -4,7 +4,8 @@
     <div class="grid-x flex-container clearfix">
         <div class="cell small-10 float-center">
             <button  *ngFor="let area of areas" (click)="getSectionsForArea(area.id)" class="btn"
-              mat-raised-button>
+              mat-raised-button
+              routerLinkActive="active">
               {{ area.title }}
             </button>
           </div>
