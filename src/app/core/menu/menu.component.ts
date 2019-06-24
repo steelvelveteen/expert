@@ -43,4 +43,8 @@ export class MenuComponent implements OnInit {
     // this._router.navigateByUrl(areaSection[0].url);
     this._router.navigate([`dashboard/${areaSection[0].url}`]);
   }
+
+  logout(): void {
+    this._router.navigateByUrl('/login');
+  }
 }
