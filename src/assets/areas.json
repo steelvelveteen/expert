@@ -52,12 +52,12 @@
             {
                 "sectionId": 19,
                 "name": "Animations",
-                "url": ""
+                "url": "animations"
             },
             {
                 "sectionId": 20,
                 "name": "Interceptors",
-                "url": ""
+                "url": "interceptors"
             },
             {
                 "sectionId": 21,
@@ -67,7 +67,7 @@
             {
                 "sectionId": 22,
                 "name": "ngRx",
-                "url": ""
+                "url": "ngrx"
             }
         ]
     },

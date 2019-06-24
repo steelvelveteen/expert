@@ -17,6 +17,7 @@ import { FloatComponent } from './foundation/float/float.component';
 import { GridsComponent } from './foundation/grids/grids.component';
 import { CollectionsComponent } from './netcore/collections/collections.component';
 import { AngSetupComponent } from './angular/ang-setup/ang-setup.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { AngSetupComponent } from './angular/ang-setup/ang-setup.component';
     FloatComponent,
     GridsComponent,
     CollectionsComponent,
-    AngSetupComponent
+    AngSetupComponent,
+    PagenotfoundComponent
   ],
   imports: [
     CommonModule
