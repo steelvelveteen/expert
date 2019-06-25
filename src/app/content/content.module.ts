@@ -18,6 +18,7 @@ import { GridsComponent } from './foundation/grids/grids.component';
 import { CollectionsComponent } from './netcore/collections/collections.component';
 import { AngSetupComponent } from './angular/ang-setup/ang-setup.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { DotnetcliComponent } from './netcore/dotnetcli/dotnetcli.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     GridsComponent,
     CollectionsComponent,
     AngSetupComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    DotnetcliComponent
   ],
   imports: [
     CommonModule
