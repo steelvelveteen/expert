@@ -92,38 +92,43 @@
             },
             {
                 "sectionId": 13,
+                "name": "Interfaces",
+                "url": "interfaces"
+            },
+            {
+                "sectionId": 14,
                 "name": "Collections & Generics",
                 "url": "collections"
             },
             {
-                "sectionId": 14,
+                "sectionId": 15,
                 "name": "Delegates",
                 "url": "delegates"
             },
             {
-                "sectionId": 15,
-                "name": "Events",
-                "url": ""
-            },
-            {
                 "sectionId": 16,
-                "name": "Lambdas",
-                "url": ""
+                "name": "Events",
+                "url": "events"
             },
             {
                 "sectionId": 17,
+                "name": "Lambdas",
+                "url": "lambdas"
+            },
+            {
+                "sectionId": 18,
                 "name": "LINQ",
                 "url": "linq"
             },
             {
-                "sectionId": 18,
+                "sectionId": 19,
                 "name": "Attributes",
-                "url": ""
+                "url": "attributes"
             },
             {
-                "sectionId": 19,
+                "sectionId": 20,
                 "name": "dotnet cli",
-                "url": ""
+                "url": "dotnet"
             }
 
         ]
@@ -140,17 +145,17 @@
             { 
                 "sectionId": 11,
                 "name": "Mixins",
-                "url": ""
+                "url": "mixins"
             },
             { 
                 "sectionId": 12,
                 "name": "Functions",
-                "url": ""
+                "url": "functions"
             },
             { 
                 "sectionId": 13,
                 "name": "CSS Tricks",
-                "url": ""
+                "url": "csstricks"
             }
             
         ]
