@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { LoginComponent } from './core/login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+
 import { CollectionsComponent } from './content/netcore/collections/collections.component';
 import { GridsComponent } from './content/foundation/grids/grids.component';
 import { FloatComponent } from './content/foundation/float/float.component';
 import { FormsComponent } from './content/angular/forms/forms.component';
-
 import { RoutingComponent } from './content/angular/routing/routing.component';
 import { EnumsComponent } from './content/netcore/enums/enums.component';
 import { SetupFoundationComponent } from './content/foundation/setup-foundation/setup-foundation.component';
@@ -18,9 +20,8 @@ import { ServicesComponent } from './content/angular/services/services.component
 import { ArraysComponent } from './content/javascript/arrays/arrays.component';
 import { FlexboxComponent } from './content/foundation/flexbox/flexbox.component';
 import { AngSetupComponent } from './content/angular/ang-setup/ang-setup.component';
-import { LoginComponent } from './core/login/login.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import { PagenotfoundComponent } from './content/pagenotfound/pagenotfound.component';
+import { DotnetcliComponent } from './content/netcore/dotnetcli/dotnetcli.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -40,6 +41,7 @@ const routes: Routes = [
       { path: 'collections', component: CollectionsComponent },
       { path: 'setup-foundation', component: SetupFoundationComponent },
       { path: 'flexbox', component: FlexboxComponent },
+      { path: 'dotnet', component: DotnetcliComponent },
       { path: 'float', component: FloatComponent },
       { path: 'gridxy', component: GridsComponent },
       { path: 'observables', component: ObservablesComponent },
