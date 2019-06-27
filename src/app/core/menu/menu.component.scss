@@ -5,12 +5,11 @@
   box-shadow: 0.1rem 0.3rem 1rem black;
 
   .areas-header {
-    background-color: $main-color;
     color: lighten($main-color, 40%);
   }
 
   .logout-btn {
-    margin-left: 0 !important;
+    margin-left: 0;
     margin-right: 0;
   }
 }

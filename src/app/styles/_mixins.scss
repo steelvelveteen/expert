@@ -38,6 +38,7 @@
 
 @mixin button {
   background-color: lighten($main-color, 50%);
+  color: $main-font-color;
   margin: 1rem;
   padding: 0 2rem;
 
@@ -51,7 +52,7 @@
 }
 
 @mixin section-content {
-  color: $main-color;
+  color: $main-font-color;
   background: lighten($main-color, 60%);
   padding: 2rem 5rem 5rem 5rem;
   box-shadow: 0.1rem 0.1rem 0.8rem black;
@@ -62,18 +63,15 @@
   overflow-y: auto;
 
   .content-header {
-    color: $main-color;
     font-size: 2.5rem;
   }
   .topic-label {
-    color: $main-color;
     font-weight: bold;
     font-size: 1.5rem;
     padding: 1.5rem 0;
   }
 
   .subtopic-label {
-    color: $main-color;
     font-weight: bold;
     font-size: 1.1rem;
     padding: 1.2rem 0;

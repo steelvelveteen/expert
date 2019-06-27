@@ -176,6 +176,11 @@
             },
             { 
                 "sectionId": 12,
+                "name": "Operators",
+                "url": "operators"
+            },
+            {
+                "sectionId": 13,
                 "name": "Asynchronous Programming",
                 "url": "async"
             }
@@ -189,6 +194,11 @@
                 "sectionId": 11,
                 "name": "Arrays",
                 "url": "arrays"
+            },
+            {
+                "sectionId": 12,
+                "name": "Closures",
+                "url": "closures"
             }
         ]
     },
