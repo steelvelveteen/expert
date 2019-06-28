@@ -11,7 +11,10 @@
 
   &:hover {
     color: white;
-    background-color: lighten($main-color, 20%);
+    // background-color: lighten($main-color, 20%);
+  background: linear-gradient(to right, $main-color, lighten($main-color, 35%));
+
+
   }
 
   &.active {
