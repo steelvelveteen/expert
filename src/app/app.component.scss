@@ -2,7 +2,7 @@
 
 .app {
     height: 100%;
-    background-color: $main-color;
+    background: linear-gradient(to left, $main-color, darken($main-color, 25%));
     .top-menu {
         z-index: 999;
     }

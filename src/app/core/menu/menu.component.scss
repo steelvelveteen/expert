@@ -1,7 +1,9 @@
 @import '../../styles/colors.scss';
 
 #top-menu-bar {
-  background-color: $main-color;
+  // background-color: $main-color;
+  background: linear-gradient(to right, $main-color, darken($main-color, 35%));
+
   box-shadow: 0.1rem 0.3rem 1rem black;
 
   .areas-header {
