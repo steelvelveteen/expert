@@ -72,8 +72,19 @@
         ]
     },
     {
-        "id": 2,
+        "id": 1,
         "title": ".Net Core",
+        "section": [
+            {
+                "sectionId": 11,
+                "name": "dotnet cli",
+                "url": "dotnet"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "C#",
         "section": [
             {
                 "sectionId": 10,
@@ -102,18 +113,18 @@
             },
             {
                 "sectionId": 15,
+                "name": "Async",
+                "url": "csharp_async"
+            },
+            {
+                "sectionId": 16,
                 "name": "Delegates",
                 "url": "delegates"
             },
             {
-                "sectionId": 16,
+                "sectionId": 17,
                 "name": "Events",
                 "url": "events"
-            },
-            {
-                "sectionId": 17,
-                "name": "Lambdas",
-                "url": "lambdas"
             },
             {
                 "sectionId": 18,
@@ -122,13 +133,13 @@
             },
             {
                 "sectionId": 19,
-                "name": "Attributes",
-                "url": "attributes"
+                "name": "Lambdas",
+                "url": "lambdas"
             },
             {
                 "sectionId": 20,
-                "name": "dotnet cli",
-                "url": "dotnet"
+                "name": "Attributes",
+                "url": "attributes"
             }
 
         ]
