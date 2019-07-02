@@ -10,11 +10,15 @@
       width: 50%;
 
       .section-header {
-        color: white;
-        background-color: lighten($main-color, 20%);
         cursor: default;
+        background-color: $main-color;
+        padding: 0.5rem 1rem;
+        display: block;
+        color: lighten($main-color, 70%);
+        box-shadow: 0.1rem 0.1rem 0.8rem black;
+        border-radius: 0.3rem;
+        margin-top: 0.5rem;
       }
     }
   }
 }
-

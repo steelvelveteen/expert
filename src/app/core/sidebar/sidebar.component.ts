@@ -12,7 +12,7 @@ import { ISection } from '../../shared/domain/models/section.model';
 })
 export class SidebarComponent implements OnInit {
 
-  private sections: ISection[];
+  sections: ISection[];
   private areas = [];
   private httpError: HttpErrorResponse = null;
   private sectionSubscription: Subscription;

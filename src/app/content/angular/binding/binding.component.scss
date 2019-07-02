@@ -1,6 +1,8 @@
+@import '../../../styles/colors';
+
 .single-row {
     margin: 1rem 1rem;
     padding: 1rem;
     border-radius: 0.5rem;
-    background-color: azure;
+    border: 0.1rem solid $main-color;
 }
