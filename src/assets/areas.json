@@ -15,7 +15,7 @@
             },
             {
                 "sectionId": 12,
-                "name": "Services",
+                "name": "Services and DI",
                 "url": "services"
             },
             {
@@ -160,6 +160,11 @@
             },
             { 
                 "sectionId": 12,
+                "name": "@If statements",
+                "url": "sassifs"
+            },
+            { 
+                "sectionId": 13,
                 "name": "Functions",
                 "url": "functions"
             },
