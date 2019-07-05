@@ -19,6 +19,7 @@ import { CollectionsComponent } from './netcore/collections/collections.componen
 import { AngSetupComponent } from './angular/ang-setup/ang-setup.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { DotnetcliComponent } from './netcore/dotnetcli/dotnetcli.component';
+import { ClosuresComponent } from './javascript/closures/closures.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { DotnetcliComponent } from './netcore/dotnetcli/dotnetcli.component';
     CollectionsComponent,
     AngSetupComponent,
     PagenotfoundComponent,
-    DotnetcliComponent
+    DotnetcliComponent,
+    ClosuresComponent
   ],
   imports: [
     CommonModule

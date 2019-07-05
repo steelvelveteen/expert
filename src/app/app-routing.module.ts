@@ -22,6 +22,7 @@ import { FlexboxComponent } from './content/foundation/flexbox/flexbox.component
 import { AngSetupComponent } from './content/angular/ang-setup/ang-setup.component';
 import { PagenotfoundComponent } from './content/pagenotfound/pagenotfound.component';
 import { DotnetcliComponent } from './content/netcore/dotnetcli/dotnetcli.component';
+import { ClosuresComponent } from './content/javascript/closures/closures.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -47,6 +48,7 @@ const routes: Routes = [
       { path: 'observables', component: ObservablesComponent },
       { path: 'subjects', component: SubjectsComponent },
       { path: 'arrays', component: ArraysComponent },
+      { path: 'closures', component: ClosuresComponent },
       { path: '*', redirectTo: '/', pathMatch: 'full' },
       { path: '**', component: PagenotfoundComponent },
     ]
