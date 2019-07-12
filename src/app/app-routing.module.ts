@@ -4,12 +4,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { LoginComponent } from './core/login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
-import { CollectionsComponent } from './content/netcore/collections/collections.component';
+import { CollectionsComponent } from './content/csharp/collections/collections.component';
 import { GridsComponent } from './content/foundation/grids/grids.component';
 import { FloatComponent } from './content/foundation/float/float.component';
 import { FormsComponent } from './content/angular/forms/forms.component';
 import { RoutingComponent } from './content/angular/routing/routing.component';
-import { EnumsComponent } from './content/netcore/enums/enums.component';
+import { EnumsComponent } from './content/csharp/enums/enums.component';
 import { SetupFoundationComponent } from './content/foundation/setup-foundation/setup-foundation.component';
 import { ObservablesComponent } from './content/rxjs/observables/observables.component';
 import { SubjectsComponent } from './content/rxjs/subjects/subjects.component';
