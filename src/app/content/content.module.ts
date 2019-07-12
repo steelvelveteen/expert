@@ -14,6 +14,8 @@ import { StartupclassComponent } from './netcore/startupclass/startupclass.compo
 
 import { EnumsComponent } from './csharp/enums/enums.component';
 import { CollectionsComponent } from './csharp/collections/collections.component';
+import { NunitComponent } from './csharp/nunit/nunit.component';
+
 
 import { ObservablesComponent } from './rxjs/observables/observables.component';
 import { SubjectsComponent } from './rxjs/subjects/subjects.component';
@@ -50,7 +52,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     PagenotfoundComponent,
     DotnetcliComponent,
     ClosuresComponent,
-    StartupclassComponent
+    StartupclassComponent,
+    NunitComponent
   ],
   imports: [
     CommonModule

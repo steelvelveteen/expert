@@ -24,6 +24,7 @@ import { PagenotfoundComponent } from './content/pagenotfound/pagenotfound.compo
 import { DotnetcliComponent } from './content/netcore/dotnetcli/dotnetcli.component';
 import { ClosuresComponent } from './content/javascript/closures/closures.component';
 import { StartupclassComponent } from './content/netcore/startupclass/startupclass.component';
+import { NunitComponent } from './content/csharp/nunit/nunit.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -51,6 +52,7 @@ const routes: Routes = [
       { path: 'arrays', component: ArraysComponent },
       { path: 'closures', component: ClosuresComponent },
       { path: 'startupclass', component: StartupclassComponent },
+      { path: 'nunit', component: NunitComponent },
       { path: '*', redirectTo: '/', pathMatch: 'full' },
       { path: '**', component: PagenotfoundComponent },
     ]
