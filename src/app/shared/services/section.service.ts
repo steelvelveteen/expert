@@ -20,7 +20,7 @@ export class SectionService {
     return this.sectionSubject.asObservable();
   }
 
-  sendAreaTitle(areaTitle) {
+  sendAreaTitle(areaTitle: string) {
     this.areaTitleSubject.next(areaTitle);
   }
 

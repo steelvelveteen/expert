@@ -14,7 +14,7 @@ export class SidebarComponent implements OnInit {
 
   sections: ISection[];
   areaTitle: string;
-  private areas = [];
+  private areas: IArea[] = [];
   private httpError: HttpErrorResponse = null;
   private sectionSubscription: Subscription;
   private areaTitleSubscription: Subscription;
@@ -48,7 +48,7 @@ export class SidebarComponent implements OnInit {
     // Sets the section title to the selected Area Title
     this.areaTitleSubscription = this._sectionService.getAreaTitle().
     subscribe(
-      (areaTitle) => {
+      (areaTitle: string) => {
         this.areaTitle = areaTitle;
       }
     );

@@ -13,7 +13,7 @@ import { Router } from '@angular/router';
 })
 export class MenuComponent implements OnInit {
 
-  private areas = [];
+  private areas: any = [];
   private httpError: HttpErrorResponse = null;
   @Output() areaSelectedEvent = new EventEmitter();
 
@@ -31,7 +31,7 @@ export class MenuComponent implements OnInit {
     );
   }
 
-  getSectionsForArea(areaId): void {
+  getSectionsForArea(areaId: number): void {
     const sectionList: ISection[] = [];
     const areaSection = this.areas.find(a => a.id === areaId).section;
     areaSection.forEach(s => sectionList.push(s));
@@ -40,7 +40,7 @@ export class MenuComponent implements OnInit {
     this._sectionService.sendAreaTitle(this.areas[areaId].title);
   }
   
-  loadFirstTopic(areaSection): void {
+  loadFirstTopic(areaSection: ISection): void {
     this._router.navigate([`dashboard/${areaSection[0].url}`]);
   }
 }
