@@ -11,13 +11,14 @@
 
       .section-header {
         cursor: default;
-        background-color: $main-color;
+        background-color: darken($main-color, 20%);
         padding: 0.5rem 1rem;
         display: block;
         color: lighten($main-color, 70%);
         box-shadow: 0.1rem 0.1rem 0.8rem black;
         border-radius: 0.3rem;
         margin-top: 0.5rem;
+        margin-bottom: 1rem;
       }
     }
   }

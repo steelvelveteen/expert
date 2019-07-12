@@ -37,6 +37,7 @@ export class MenuComponent implements OnInit {
     areaSection.forEach(s => sectionList.push(s));
     this._sectionService.sendSectionList(sectionList);
     this.loadFirstTopic(areaSection);
+    this._sectionService.sendAreaTitle(this.areas[areaId].title);
   }
   
   loadFirstTopic(areaSection): void {

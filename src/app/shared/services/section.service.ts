@@ -8,6 +8,7 @@ import { ISection } from '../domain/models/section.model';
 export class SectionService {
 
   private sectionSubject = new Subject<ISection[]>();
+  private areaTitleSubject = new Subject<string>();
   
   constructor() { }
 
@@ -17,5 +18,13 @@ export class SectionService {
 
   getSectionList(): Observable<ISection[]> {
     return this.sectionSubject.asObservable();
+  }
+
+  sendAreaTitle(areaTitle) {
+    this.areaTitleSubject.next(areaTitle);
+  }
+
+  getAreaTitle(): Observable<string> {
+    return this.areaTitleSubject.asObservable();
   }
 }

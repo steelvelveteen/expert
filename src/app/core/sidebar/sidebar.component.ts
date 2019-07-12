@@ -13,9 +13,11 @@ import { ISection } from '../../shared/domain/models/section.model';
 export class SidebarComponent implements OnInit {
 
   sections: ISection[];
+  areaTitle: string;
   private areas = [];
   private httpError: HttpErrorResponse = null;
   private sectionSubscription: Subscription;
+  private areaTitleSubscription: Subscription;
 
   @Input() areasList: IArea[];
   
@@ -28,6 +30,7 @@ export class SidebarComponent implements OnInit {
       (data: IArea[]) => {
         this.areas = data;
         this.sections = this.areas[0].section;
+        this.areaTitle = this.areas[0].title;
       },
       (error: HttpErrorResponse) => {
         this.httpError = error;
@@ -39,6 +42,14 @@ export class SidebarComponent implements OnInit {
     subscribe(
       (sections: ISection[]) => {
         this.sections = sections;
+      }
+    );
+
+    // Sets the section title to the selected Area Title
+    this.areaTitleSubscription = this._sectionService.getAreaTitle().
+    subscribe(
+      (areaTitle) => {
+        this.areaTitle = areaTitle;
       }
     );
   }
