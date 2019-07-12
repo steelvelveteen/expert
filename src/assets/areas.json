@@ -79,6 +79,11 @@
                 "sectionId": 11,
                 "name": "dotnet cli",
                 "url": "dotnet"
+            },
+            {
+                "sectionId": 12,
+                "name": "Startup Class",
+                "url": "startupclass"
             }
         ]
     },

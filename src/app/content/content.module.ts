@@ -9,6 +9,8 @@ import { AngSetupComponent } from './angular/ang-setup/ang-setup.component';
 import { BindingComponent } from './angular/binding/binding.component';
 
 import { DotnetcliComponent } from './netcore/dotnetcli/dotnetcli.component';
+import { StartupclassComponent } from './netcore/startupclass/startupclass.component';
+
 
 import { EnumsComponent } from './csharp/enums/enums.component';
 import { CollectionsComponent } from './csharp/collections/collections.component';
@@ -47,7 +49,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     AngSetupComponent,
     PagenotfoundComponent,
     DotnetcliComponent,
-    ClosuresComponent
+    ClosuresComponent,
+    StartupclassComponent
   ],
   imports: [
     CommonModule

@@ -23,6 +23,7 @@ import { AngSetupComponent } from './content/angular/ang-setup/ang-setup.compone
 import { PagenotfoundComponent } from './content/pagenotfound/pagenotfound.component';
 import { DotnetcliComponent } from './content/netcore/dotnetcli/dotnetcli.component';
 import { ClosuresComponent } from './content/javascript/closures/closures.component';
+import { StartupclassComponent } from './content/netcore/startupclass/startupclass.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -49,6 +50,7 @@ const routes: Routes = [
       { path: 'subjects', component: SubjectsComponent },
       { path: 'arrays', component: ArraysComponent },
       { path: 'closures', component: ClosuresComponent },
+      { path: 'startupclass', component: StartupclassComponent },
       { path: '*', redirectTo: '/', pathMatch: 'full' },
       { path: '**', component: PagenotfoundComponent },
     ]
