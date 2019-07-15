@@ -133,13 +133,13 @@
             },
             {
                 "sectionId": 18,
-                "name": "LINQ",
-                "url": "linq"
+                "name": "Lambdas",
+                "url": "lambdas"
             },
             {
                 "sectionId": 19,
-                "name": "Lambdas",
-                "url": "lambdas"
+                "name": "LINQ",
+                "url": "linq"
             },
             {
                 "sectionId": 20,
