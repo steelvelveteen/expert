@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from 'src/app/shared/services/data.service';
+import { IEmployee } from 'src/app/shared/domain/models/employee.model';
+import { HttpErrorResponse } from '@angular/common/http';
 
 @Component({
   selector: 'dotnetcli',
@@ -8,16 +10,20 @@ import { DataService } from 'src/app/shared/services/data.service';
 })
 export class DotnetcliComponent implements OnInit {
 
+  employees: IEmployee[];
   constructor(private _dataService: DataService ) { }
 
   ngOnInit() {
   }
 
   getEmployees(): void {
-    console.log('Get employees event activated');
     this._dataService.getEmployees().subscribe(
-      (res => {
-        console.log('Got a response');
+      response => {
+        this.employees = response;
+        console.log(this.employees);
+      },
+      ((error: HttpErrorResponse) => {
+        console.log("Error retrieving employees from db.");
       })
     );
   }

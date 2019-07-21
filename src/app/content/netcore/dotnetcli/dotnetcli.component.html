@@ -3,13 +3,17 @@
       <div class="cell small-12">
         <div class="text-center content-header">dotnet CLI</div>
         <div class="topic-label">dotnet new webapi</div>
-        <a
+        <div>
+          <a
           mat-raised-button
           class="a-links"
           target="_blank"
           (click)="getEmployees()"
-          >Get Employees</a
-        >
+          >Get Employees</a>
+        </div>
+        <div *ngFor="let employee of employees">
+          <div class="topic-label">{{employee.firstName}} {{employee.lastName}}</div>
+        </div>
       </div>
     </div>
   </div>
