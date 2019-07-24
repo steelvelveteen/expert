@@ -276,7 +276,7 @@
             {
                 "sectionId": 11,
                 "name": "Installation",
-                "url": "docker-install"
+                "url": "installation"
             }
         ]
     }

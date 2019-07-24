@@ -30,6 +30,7 @@ import { FloatComponent } from './foundation/float/float.component';
 import { GridsComponent } from './foundation/grids/grids.component';
 
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { InstallationComponent } from './docker/installation/installation.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     DotnetcliComponent,
     ClosuresComponent,
     StartupclassComponent,
-    NunitComponent
+    NunitComponent,
+    InstallationComponent
   ],
   imports: [
     CommonModule
