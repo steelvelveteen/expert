@@ -29,8 +29,9 @@ import { FlexboxComponent } from './foundation/flexbox/flexbox.component';
 import { FloatComponent } from './foundation/float/float.component';
 import { GridsComponent } from './foundation/grids/grids.component';
 
-import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { InstallationComponent } from './docker/installation/installation.component';
+
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
