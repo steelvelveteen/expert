@@ -268,5 +268,16 @@
                 "url": "visibility"
             }
         ]
+    },
+    {
+        "id": 7,
+        "title": "Docker",
+        "section": [
+            {
+                "sectionId": 11,
+                "name": "Installation",
+                "url": "docker-install"
+            }
+        ]
     }
 ]
