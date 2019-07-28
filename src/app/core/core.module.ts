@@ -6,6 +6,7 @@ import { MenuComponent } from './menu/menu.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { LoginComponent } from './login/login.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { LoginComponent } from './login/login.component';
   imports: [
     CommonModule,
     AppRoutingModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports: [
     MenuComponent,
