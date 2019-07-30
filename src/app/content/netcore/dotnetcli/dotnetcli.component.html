@@ -3,7 +3,7 @@
       <div class="cell small-12">
         <div class="text-center content-header">dotnet CLI</div>
         <div class="topic-label">dotnet new webapi</div>
-        <div>
+        <div class="flex-container align-left">
           <a
           mat-raised-button
           class="a-links"
@@ -13,6 +13,9 @@
         </div>
         <div *ngFor="let employee of employees">
           <div class="topic-label">{{employee.firstName}} {{employee.lastName}}</div>
+        </div>
+        <div *ngIf="employeesError">
+          <div class="error-message">Failed to retrieve employees.</div>
         </div>
       </div>
     </div>

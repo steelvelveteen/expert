@@ -11,9 +11,11 @@ import { HttpErrorResponse } from '@angular/common/http';
 export class DotnetcliComponent implements OnInit {
 
   employees: IEmployee[];
+  employeesError = false;
   constructor(private _dataService: DataService ) { }
 
   ngOnInit() {
+    this.clearMessages();
   }
 
   getEmployees(): void {
@@ -24,7 +26,12 @@ export class DotnetcliComponent implements OnInit {
       },
       ((error: HttpErrorResponse) => {
         console.log("Error retrieving employees from db.");
+        this.employeesError = true;
       })
     );
+  }
+
+  clearMessages(): void {
+    this.employeesError = false;
   }
 }
