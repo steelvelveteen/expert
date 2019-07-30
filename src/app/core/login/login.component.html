@@ -2,7 +2,25 @@
   <div class="cell small-12">
     <div class="flex-container align-center-middle">
       <div class="login align-center">
-        <a class="a-links" mat-raised-button (click)="login()">Login</a>
+        <form [formGroup]="loginForm" (ngSubmit)="login()">
+          <div>
+            <input 
+            matInput 
+            type="text" 
+            placeholder="username"
+            formControlName="username"
+            >
+          </div>
+          <div class="form-group">
+            <input 
+            matInput 
+            type="password" 
+            class="form-control" 
+            placeholder="password"
+            formControlName="password">
+          </div>
+          <button class="a-links" type="submit" mat-raised-button>Login</button>
+        </form>
         <div class="logs">Some logs will show here ...</div>
       </div>
     </div>
