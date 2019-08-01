@@ -1,4 +1,16 @@
+@import '../../../styles/colors';
+
 .error-message {
     color: red;
     margin: 2rem 0rem;
+}
+.submit-button {
+    .loading-spinner {
+        position: absolute;
+        left: 3rem;
+        top: 0.3rem;
+    }
+    &.loading-btn {
+        background-color: lighten($main-color, 30%);
+    }
 }

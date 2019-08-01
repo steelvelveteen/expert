@@ -12,22 +12,29 @@ export class DotnetcliComponent implements OnInit {
 
   employees: IEmployee[];
   employeesError = false;
-  constructor(private _dataService: DataService ) { }
+  displaySpinner = false;
+
+
+  constructor(private _dataService: DataService) { }
 
   ngOnInit() {
     this.clearMessages();
   }
 
   getEmployees(): void {
+    this.displaySpinner = true;
+
     this._dataService.getEmployees().subscribe(
       response => {
         this.employees = response;
         console.log(this.employees);
+        this.displaySpinner = false;
       },
-      ((error: HttpErrorResponse) => {
+      (error: HttpErrorResponse) => {
         console.log("Error retrieving employees from db.");
         this.employeesError = true;
-      })
+        this.displaySpinner = false;
+      }
     );
   }
 

@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { MaterialModule } from '../material/material.module';
 
 import { FormsComponent } from './angular/forms/forms.component';
 import { RoutingComponent } from './angular/routing/routing.component';
@@ -59,7 +60,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     InstallationComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MaterialModule
   ]
 })
 export class ContentModule { }

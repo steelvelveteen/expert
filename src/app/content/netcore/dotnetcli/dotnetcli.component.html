@@ -4,13 +4,23 @@
         <div class="text-center content-header">dotnet CLI</div>
         <div class="topic-label">dotnet new webapi</div>
         <div class="flex-container align-left">
-          <a
+          <button
           mat-raised-button
-          class="a-links"
+          class="a-links submit-button"
+          [ngClass]="{'loading-btn':displaySpinner}"
           target="_blank"
           (click)="getEmployees()"
-          >Get Employees</a>
+          >
+          <mat-spinner
+          mode="indeterminate"
+           *ngIf="displaySpinner" 
+           class="loading-spinner" 
+           diameter="25">
+          </mat-spinner>
+          Get Employees</button>
         </div>
+        
+
         <div *ngFor="let employee of employees">
           <div class="topic-label">{{employee.firstName}} {{employee.lastName}}</div>
         </div>
