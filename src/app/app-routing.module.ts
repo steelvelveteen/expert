@@ -25,6 +25,7 @@ import { DotnetcliComponent } from './content/netcore/dotnetcli/dotnetcli.compon
 import { ClosuresComponent } from './content/javascript/closures/closures.component';
 import { StartupclassComponent } from './content/netcore/startupclass/startupclass.component';
 import { NunitComponent } from './content/csharp/nunit/nunit.component';
+import { OperatorsComponent } from './content/rxjs/operators/operators.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -49,6 +50,7 @@ const routes: Routes = [
       { path: 'gridxy', component: GridsComponent },
       { path: 'observables', component: ObservablesComponent },
       { path: 'subjects', component: SubjectsComponent },
+      { path: 'operators', component: OperatorsComponent },
       { path: 'arrays', component: ArraysComponent },
       { path: 'closures', component: ClosuresComponent },
       { path: 'startupclass', component: StartupclassComponent },

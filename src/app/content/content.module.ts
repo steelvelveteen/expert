@@ -33,6 +33,7 @@ import { GridsComponent } from './foundation/grids/grids.component';
 import { InstallationComponent } from './docker/installation/installation.component';
 
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { OperatorsComponent } from './rxjs/operators/operators.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     ClosuresComponent,
     StartupclassComponent,
     NunitComponent,
-    InstallationComponent
+    InstallationComponent,
+    OperatorsComponent
   ],
   imports: [
     CommonModule,
