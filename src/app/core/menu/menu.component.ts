@@ -13,7 +13,7 @@ import { Router } from '@angular/router';
 })
 export class MenuComponent implements OnInit {
 
-  private areas: any = [];
+  areas: any = [];
   private httpError: HttpErrorResponse = null;
   @Output() areaSelectedEvent = new EventEmitter();
 
