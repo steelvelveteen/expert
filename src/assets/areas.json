@@ -288,6 +288,11 @@
                 "sectionId": 11,
                 "name": "Setup Webpack",
                 "url": "setupwebpack"
+            },
+            {
+                "sectionId": 12,
+                "name": "Optimization Webpack",
+                "url": "optimization"
             }
         ]
     }

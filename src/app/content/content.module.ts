@@ -34,6 +34,9 @@ import { InstallationComponent } from './docker/installation/installation.compon
 
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { OperatorsComponent } from './rxjs/operators/operators.component';
+import { SetupComponent } from './webpack/setup/setup.component';
+import { OptimizationComponent } from './webpack/optimization/optimization.component';
+
 
 @NgModule({
   declarations: [
@@ -59,7 +62,9 @@ import { OperatorsComponent } from './rxjs/operators/operators.component';
     StartupclassComponent,
     NunitComponent,
     InstallationComponent,
-    OperatorsComponent
+    OperatorsComponent,
+    SetupComponent,
+    OptimizationComponent
   ],
   imports: [
     CommonModule,
