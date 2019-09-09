@@ -279,5 +279,16 @@
                 "url": "installation"
             }
         ]
+    },
+    {
+        "id": 8,
+        "title": "Webpack",
+        "section": [
+            {
+                "sectionId": 11,
+                "name": "Setup Webpack",
+                "url": "setupwebpack"
+            }
+        ]
     }
 ]
