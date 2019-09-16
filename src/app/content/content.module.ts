@@ -36,6 +36,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { OperatorsComponent } from './rxjs/operators/operators.component';
 import { SetupComponent } from './webpack/setup/setup.component';
 import { OptimizationComponent } from './webpack/optimization/optimization.component';
+import { LoggingComponent } from './netcore/logging/logging.component';
 
 
 @NgModule({
@@ -64,7 +65,8 @@ import { OptimizationComponent } from './webpack/optimization/optimization.compo
     InstallationComponent,
     OperatorsComponent,
     SetupComponent,
-    OptimizationComponent
+    OptimizationComponent,
+    LoggingComponent
   ],
   imports: [
     CommonModule,

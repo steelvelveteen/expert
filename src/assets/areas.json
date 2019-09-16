@@ -86,14 +86,19 @@
                 "url": "startupclass"
             },
             {
-                "secionId": 13,
+                "sectionId": 13,
                 "name": "Environment",
                 "url": "environment"
             },
             {
-                "secionId": 14,
+                "sectionId": 14,
                 "name": "Configuration",
                 "url": "configuration"
+            },
+            {
+                "sectionId": 14,
+                "name": "Logging",
+                "url": "logging"
             }
         ]
     },
