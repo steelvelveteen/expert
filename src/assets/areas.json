@@ -300,5 +300,16 @@
                 "url": "optimization"
             }
         ]
+    },
+    {
+        "id": 9,
+        "title": "Material",
+        "section": [
+            {
+                "sectionId": 10,
+                "name": "Material Setup",
+                "url": "setupmaterial"
+            }
+        ]
     }
 ]
