@@ -17,17 +17,18 @@ export class AppComponent implements OnInit {
   constructor(private _dataService: DataService, private _router: Router) {}
 
   ngOnInit() {
-    // this._dataService.fetchData().
-    // subscribe(
-    //   (data: IArea[]) => {
-    //     this.areas = data;
-    //   this._router.navigateByUrl(this.areas[0].section[0].url);
+    this._dataService.fetchData().
+    subscribe(
+      (data: IArea[]) => {
+        this.areas = data;
+      // this._router.navigateByUrl(this.areas[0].section[0].url);
+      this._router.navigateByUrl('dashboard/setup-angular');
 
-    //   },
-    //   (error: HttpErrorResponse) => {
-    //     this.httpError = error;
-    //     console.log(error);
-    //   }
-    // );
+      },
+      (error: HttpErrorResponse) => {
+        this.httpError = error;
+        console.log(error);
+      }
+    );
   }
 }
