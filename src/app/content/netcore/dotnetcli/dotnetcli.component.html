@@ -2,8 +2,20 @@
     <div class="grid-x">
       <div class="cell small-12">
         <div class="text-center content-header">dotnet CLI</div>
-        <div class="topic-label">dotnet new webapi</div>
-        <div class="flex-container align-left">
+        <div class="topic-label">Creating a new solution for a web api with multiple projects via the dotnet command</div>
+        <div class="subtopic-label">
+          NOTE: If you are using VS Code and the extension solution explorer you will have the possibility to add projects to solution by right clicking on the solution name.
+        </div>
+        <div>First you set up a folder with the name of the future project. e.g.: WebAPIv3 cd inside of that project folder and type <code>dotnet new sln</code>, no need to specifiy the name as it will take it from the outer folder name.</div>
+        <br>
+        <div>Creating the web api where the controllers are contained is done at the same level as the sln in the project folder. Type <code>dotnet new webapi -o name_of_main_project</code> and give it a significative name, usually the same as the folder containing the whole project, aka, WebAPIv3</div>
+        <br>
+        <div>Now add that newly created project to the solution: <code>dotnet sln add WebAPIv3</code>. Apparently a wwwroot empty folder is added but you can delete that.</div>
+        <br>
+        <div>To run and test <code>dotnet run --project WebAPIv3</code>, you need to specifiy the main project that runs the entire solution.</div>
+        <br>
+        <div>Now let's add another project that will contain the models needed for the solution. Start with <code>dotnet new classlib -o WebAPIv3.Models</code> and add it to the solution like earlier, <code>dotnet sln add WebAPIv3.Models</code></div>
+        <!-- <div class="flex-container align-left">
           <button
           mat-raised-button
           class="a-links submit-button"
@@ -18,15 +30,15 @@
            diameter="25">
           </mat-spinner>
           Get Employees</button>
-        </div>
+        </div> -->
         
 
-        <div *ngFor="let employee of employees">
+        <!-- <div *ngFor="let employee of employees">
           <div class="topic-label">{{employee.firstName}} {{employee.lastName}}</div>
         </div>
         <div *ngIf="employeesError">
           <div class="error-message">Failed to retrieve employees.</div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
