@@ -15,6 +15,11 @@
         <div>To run and test <code>dotnet run --project WebAPIv3</code>, you need to specifiy the main project that runs the entire solution.</div>
         <br>
         <div>Now let's add another project that will contain the models needed for the solution. Start with <code>dotnet new classlib -o WebAPIv3.Models</code> and add it to the solution like earlier, <code>dotnet sln add WebAPIv3.Models</code></div>
+        <div>To gain intellisense and to add a reference: <code>dotnet add WebAPIv3 reference WebAPIv3.Models</code>. This tells the main project that it needs to know of another project, in this case, the Models. From here Omnisharp will give us suggestions like Use deleteMe.API.Models when referencing any models contained in the models project.</div>
+        <br>
+        <div>So, create the project as classlib, add it to the solution and finally add a reference to the main project in the solution.</div>
+        <br>
+        <div class="topic-label">Running the project. Run and watch. Omnisharp considerations for Linux environment.</div>
         <!-- <div class="flex-container align-left">
           <button
           mat-raised-button
