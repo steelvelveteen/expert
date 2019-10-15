@@ -39,6 +39,7 @@ import { OptimizationComponent } from './webpack/optimization/optimization.compo
 import { LoggingComponent } from './netcore/logging/logging.component';
 import { InterfacesComponent } from './csharp/interfaces/interfaces.component';
 import { SelectorsComponent } from './scss/selectors/selectors.component';
+import { InstallationpgsqlComponent } from './postgres/installationpgsql/installationpgsql.component';
 
 
 @NgModule({
@@ -70,7 +71,8 @@ import { SelectorsComponent } from './scss/selectors/selectors.component';
     OptimizationComponent,
     LoggingComponent,
     InterfacesComponent,
-    SelectorsComponent
+    SelectorsComponent,
+    InstallationpgsqlComponent
   ],
   imports: [
     CommonModule,

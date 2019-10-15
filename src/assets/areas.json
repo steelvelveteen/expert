@@ -303,12 +303,12 @@
     },
     {
         "id": 9,
-        "title": "Material",
+        "title": "PostgreSQL",
         "section": [
             {
                 "sectionId": 10,
-                "name": "Material Setup",
-                "url": "setupmaterial"
+                "name": "PostgreSQL Setup",
+                "url": "installationpgsql"
             }
         ]
     }

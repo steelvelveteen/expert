@@ -28,6 +28,7 @@ import { StartupclassComponent } from './content/netcore/startupclass/startupcla
 import { NunitComponent } from './content/csharp/nunit/nunit.component';
 import { OperatorsComponent } from './content/rxjs/operators/operators.component';
 import { SelectorsComponent } from './content/scss/selectors/selectors.component';
+import { InstallationpgsqlComponent } from './content/postgres/installationpgsql/installationpgsql.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -59,6 +60,7 @@ const routes: Routes = [
       { path: 'nunit', component: NunitComponent },
       { path: 'interfaces', component: InterfacesComponent },
       { path: 'selectors', component: SelectorsComponent },
+      { path: 'installationpgsql', component: InstallationpgsqlComponent },
       { path: '*', redirectTo: '/', pathMatch: 'full' },
       { path: '**', component: PagenotfoundComponent },
     ]
