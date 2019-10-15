@@ -37,6 +37,7 @@ import { OperatorsComponent } from './rxjs/operators/operators.component';
 import { SetupComponent } from './webpack/setup/setup.component';
 import { OptimizationComponent } from './webpack/optimization/optimization.component';
 import { LoggingComponent } from './netcore/logging/logging.component';
+import { InstallationpgsqlComponent } from './postgres/installationpgsql/installationpgsql.component';
 
 
 @NgModule({
@@ -66,7 +67,8 @@ import { LoggingComponent } from './netcore/logging/logging.component';
     OperatorsComponent,
     SetupComponent,
     OptimizationComponent,
-    LoggingComponent
+    LoggingComponent,
+    InstallationpgsqlComponent
   ],
   imports: [
     CommonModule,
