@@ -5,6 +5,7 @@ import { LoginComponent } from './core/login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { CollectionsComponent } from './content/csharp/collections/collections.component';
+import { InterfacesComponent } from './content/csharp/interfaces/interfaces.component';
 import { GridsComponent } from './content/foundation/grids/grids.component';
 import { FloatComponent } from './content/foundation/float/float.component';
 import { FormsComponent } from './content/angular/forms/forms.component';
@@ -26,6 +27,7 @@ import { ClosuresComponent } from './content/javascript/closures/closures.compon
 import { StartupclassComponent } from './content/netcore/startupclass/startupclass.component';
 import { NunitComponent } from './content/csharp/nunit/nunit.component';
 import { OperatorsComponent } from './content/rxjs/operators/operators.component';
+import { SelectorsComponent } from './content/scss/selectors/selectors.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -55,6 +57,8 @@ const routes: Routes = [
       { path: 'closures', component: ClosuresComponent },
       { path: 'startupclass', component: StartupclassComponent },
       { path: 'nunit', component: NunitComponent },
+      { path: 'interfaces', component: InterfacesComponent },
+      { path: 'selectors', component: SelectorsComponent },
       { path: '*', redirectTo: '/', pathMatch: 'full' },
       { path: '**', component: PagenotfoundComponent },
     ]

@@ -37,6 +37,8 @@ import { OperatorsComponent } from './rxjs/operators/operators.component';
 import { SetupComponent } from './webpack/setup/setup.component';
 import { OptimizationComponent } from './webpack/optimization/optimization.component';
 import { LoggingComponent } from './netcore/logging/logging.component';
+import { InterfacesComponent } from './csharp/interfaces/interfaces.component';
+import { SelectorsComponent } from './scss/selectors/selectors.component';
 
 
 @NgModule({
@@ -66,7 +68,9 @@ import { LoggingComponent } from './netcore/logging/logging.component';
     OperatorsComponent,
     SetupComponent,
     OptimizationComponent,
-    LoggingComponent
+    LoggingComponent,
+    InterfacesComponent,
+    SelectorsComponent
   ],
   imports: [
     CommonModule,
