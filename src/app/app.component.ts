@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
       (data: IArea[]) => {
         this.areas = data;
       // this._router.navigateByUrl(this.areas[0].section[0].url);
-      this._router.navigateByUrl('dashboard/setup-angular');
+        this._router.navigateByUrl('dashboard/setup-angular');
 
       },
       (error: HttpErrorResponse) => {
