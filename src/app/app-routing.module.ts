@@ -1,3 +1,4 @@
+import { InheritanceComponent } from './content/csharp/inheritance/inheritance.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -59,6 +60,7 @@ const routes: Routes = [
       { path: 'startupclass', component: StartupclassComponent },
       { path: 'nunit', component: NunitComponent },
       { path: 'interfaces', component: InterfacesComponent },
+      { path: 'inheritance', component: InheritanceComponent },
       { path: 'selectors', component: SelectorsComponent },
       { path: 'installationpgsql', component: InstallationpgsqlComponent },
       { path: '*', redirectTo: '/', pathMatch: 'full' },

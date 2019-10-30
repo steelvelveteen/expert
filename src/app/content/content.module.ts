@@ -40,6 +40,7 @@ import { LoggingComponent } from './netcore/logging/logging.component';
 import { InterfacesComponent } from './csharp/interfaces/interfaces.component';
 import { SelectorsComponent } from './scss/selectors/selectors.component';
 import { InstallationpgsqlComponent } from './postgres/installationpgsql/installationpgsql.component';
+import { InheritanceComponent } from './csharp/inheritance/inheritance.component';
 
 
 @NgModule({
@@ -72,7 +73,8 @@ import { InstallationpgsqlComponent } from './postgres/installationpgsql/install
     LoggingComponent,
     InterfacesComponent,
     SelectorsComponent,
-    InstallationpgsqlComponent
+    InstallationpgsqlComponent,
+    InheritanceComponent
   ],
   imports: [
     CommonModule,
