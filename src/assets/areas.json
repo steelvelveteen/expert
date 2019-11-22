@@ -66,8 +66,8 @@
             },
             {
                 "sectionId": 22,
-                "name": "ngRx",
-                "url": "ngrx"
+                "name": "Angular Material",
+                "url": "angular-material"
             }
         ]
     },

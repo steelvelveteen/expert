@@ -30,6 +30,7 @@ import { NunitComponent } from './content/csharp/nunit/nunit.component';
 import { OperatorsComponent } from './content/rxjs/operators/operators.component';
 import { SelectorsComponent } from './content/scss/selectors/selectors.component';
 import { InstallationpgsqlComponent } from './content/postgres/installationpgsql/installationpgsql.component';
+import { AngularMaterialComponent } from './content/angular/angular-material/angular-material.component';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
@@ -63,6 +64,8 @@ const routes: Routes = [
       { path: 'inheritance', component: InheritanceComponent },
       { path: 'selectors', component: SelectorsComponent },
       { path: 'installationpgsql', component: InstallationpgsqlComponent },
+      { path: 'angular-material', component: AngularMaterialComponent },
+
       { path: '*', redirectTo: '/', pathMatch: 'full' },
       { path: '**', component: PagenotfoundComponent },
     ]

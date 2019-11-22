@@ -41,6 +41,7 @@ import { InterfacesComponent } from './csharp/interfaces/interfaces.component';
 import { SelectorsComponent } from './scss/selectors/selectors.component';
 import { InstallationpgsqlComponent } from './postgres/installationpgsql/installationpgsql.component';
 import { InheritanceComponent } from './csharp/inheritance/inheritance.component';
+import { AngularMaterialComponent } from './angular/angular-material/angular-material.component';
 
 
 @NgModule({
@@ -74,7 +75,8 @@ import { InheritanceComponent } from './csharp/inheritance/inheritance.component
     InterfacesComponent,
     SelectorsComponent,
     InstallationpgsqlComponent,
-    InheritanceComponent
+    InheritanceComponent,
+    AngularMaterialComponent
   ],
   imports: [
     CommonModule,
