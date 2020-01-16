@@ -1,4 +1,3 @@
-<p>angular-material works!</p>
 <div class="section-content">
   <div class="grid-x">
     <div class="cell small-12">
@@ -6,7 +5,25 @@
       <div class="topic-label">Mat Select</div>
       <div>It's designed to work inside a mat-from-field.</div>
       <div>Difference between [(ngModel)] and [(value)]</div>
-      <a>https://stackoverflow.com/questions/42699705/ngmodel-vs-value</a>
+      <a class="a-links" target="_blank" href="https://stackoverflow.com/questions/42699705/ngmodel-vs-value">stackoverflow</a>
+      <div>Difference between formControlName and [formControl]</div>
+      <a class="a-links" target="_blank" href="https://stackoverflow.com/questions/40171914/what-is-the-difference-between-formcontrolname-and-formcontrol">stackoverflow</a>
     </div>
   </div>
+  <div class="topic-label">Example</div>
+  <pre>
+      <span class="hljs-tag"><<span class="hljs-name">mat-form-field</span>></span>
+      <span class="hljs-tag"> <<span class="hljs-name">mat-select</span>></span>
+
+      <span class="hljs-tag"> <<span class="hljs-tag">/</span><span class="hljs-name">mat-select</span>></span>
+      <span class="hljs-tag"><<span class="hljs-tag">/</span><span class="hljs-name">mat-form-field</span>></span>
+   </pre>
+
+   <div class="subtopic-label">Example with some accounts:</div>
+   <!-- / Here in [(value)] you set a default defined in the ts -->
+   <mat-select [(value)]="defaultAccount"> 
+     <mat-option *ngFor="let account of accountTypes" [value]="account.value">
+       {{ account.viewValue }}
+     </mat-option>
+   </mat-select>
 </div>
