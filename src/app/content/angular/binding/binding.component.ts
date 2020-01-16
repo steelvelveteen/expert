@@ -13,7 +13,7 @@ export class BindingComponent implements OnInit {
   ngOnInit() {
   }
 
-  deleteTask(index): void {
+  deleteTask(index: number): void {
     this.todoList.splice(index, 1);
   }
 }
