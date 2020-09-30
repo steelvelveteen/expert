@@ -19,6 +19,16 @@
                 "url": "services"
             },
             {
+                "sectionId": 13,
+                "name": "Pipes",
+                "url": "pipes"
+            },
+            {
+                "sectionId": 14,
+                "name": "Directives",
+                "url": "directives"
+            },
+            {
                 "sectionId": 15,
                 "name": "Routing",
                 "url": "routing"
@@ -32,6 +42,26 @@
                 "sectionId": 17,
                 "name": "Http and Observables",
                 "url": "http"
+            },
+            {
+                "sectionId": 18,
+                "name": "Http Error Handling",
+                "url": "httpError"
+            },
+            {
+                "sectionId": 19,
+                "name": "Animations",
+                "url": "animations"
+            },
+            {
+                "sectionId": 20,
+                "name": "Interceptors",
+                "url": "interceptors"
+            },
+            {
+                "sectionId": 21,
+                "name": "Authentication",
+                "url": "authentication"
             },
             {
                 "sectionId": 22,
@@ -249,6 +279,22 @@
                 "sectionId": 11,
                 "name": "Installation",
                 "url": "installation"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Webpack",
+        "section": [
+            {
+                "sectionId": 11,
+                "name": "Setup Webpack",
+                "url": "setupwebpack"
+            },
+            {
+                "sectionId": 12,
+                "name": "Optimization Webpack",
+                "url": "optimization"
             }
         ]
     },
